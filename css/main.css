@@ -416,4 +416,26 @@ header .head .menu .menu-lista .menu-links a {
   color: rgb(231, 204, 154);
 }
 
+.inicio-cavaleiros {
+  padding: 16px;
+}
+.inicio-cavaleiros .lista-topicos {
+  border: 1px solid white;
+  width: 320px;
+  padding: 16px;
+}
+.inicio-cavaleiros .lista-topicos ol {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.inicio-cavaleiros .lista-topicos ol ol {
+  list-style: lower-roman;
+}
+.inicio-cavaleiros .lista-topicos ol ol li {
+  padding: 5px;
+}
+.inicio-cavaleiros .lista-topicos ol ol ol {
+  list-style: decimal-leading-zero;
+}
+
 /*# sourceMappingURL=main.css.map */
