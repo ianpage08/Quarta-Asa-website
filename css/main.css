@@ -334,14 +334,20 @@ header .head .menu .menu-lista .menu-links a {
   max-width: 1000px;
   margin: 10px auto;
   padding: 16px;
+  color: #F1D94F;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.conteudo-mundo h1, .conteudo-mundo h4, .conteudo-mundo h3 {
   color: white;
 }
 .conteudo-mundo h2 {
   text-align: center;
   padding: 10px;
+  color: white;
 }
 .conteudo-mundo h3 {
   padding: 5px;
+  color: white;
 }
 .conteudo-mundo .mapa {
   text-align: center;
@@ -350,35 +356,64 @@ header .head .menu .menu-lista .menu-links a {
   width: 60%;
 }
 
-.lista-principal {
-  color: white;
-  cursor: pointer;
-  list-style: none;
+.container-lista .lista-principal {
   max-width: 1000px;
-  margin: 10px auto;
-  padding: 8px;
   border: 1px solid white;
-  overflow: hidden;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.lista-principal a {
-  display: block;
-  color: white;
-  text-decoration: none;
-}
-.lista-principal li {
+.container-lista .lista-principal li {
   display: inline-block;
-  padding: 8px;
+  position: relative;
 }
-.lista-principal .sublista {
-  display: none;
+.container-lista .lista-principal li .links-lista-p {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(248, 207, 169);
+}
+.container-lista .lista-principal li .links-lista-p span img {
+  margin-left: 5px;
+  transition: 0.3s;
+}
+.container-lista .lista-principal li .links-lista-p:hover > span > img {
+  transform: rotate(90deg);
+}
+.container-lista .lista-principal li .sublista {
+  background-color: rgb(109, 109, 109);
   position: absolute;
+  display: none;
+  border-radius: 5px;
+  margin: auto;
+  width: 120px;
+  padding: 0px;
 }
-
-.lista-principal li:hover > .sublista {
+.container-lista .lista-principal li .sublista li {
+  text-align: left;
+  padding: 5px;
+  display: block;
+  list-style: none;
+  color: black;
+  align-content: space-around;
+  color: black;
+}
+.container-lista .lista-principal li .sublista li a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+.container-lista .lista-principal li:hover > .sublista {
   display: block;
 }
-.lista-principal li:hover > .sublista li {
-  display: block;
+.container-lista .lista-principal li:hover > .sublista li:hover {
+  background-color: rgb(121, 104, 83);
+  transition: 0.3s;
+  color: rgb(155, 137, 103);
+}
+.container-lista .lista-principal li:hover > .sublista li a:hover {
+  transition: 0.5s;
+  color: rgb(231, 204, 154);
 }
 
 /*# sourceMappingURL=main.css.map */
