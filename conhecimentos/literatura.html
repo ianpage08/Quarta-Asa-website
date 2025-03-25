@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lib/bootstrap-css.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Quarta Asa</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container d-flex justify-content-between align-items-center head">
+            <div class="logo"><img src="../imagens/logo.svg" alt=""></div>
+            <div class="menu-hamburguer">
+                <div class="linha-menu"></div>
+                <div class="linha-menu"></div>
+                <div class="linha-menu"></div>
+            </div>
+            <nav class="menu">
+                <ul class="menu-lista">
+                    <li class="menu-links"><a href="index.html">Home</a></li>
+                    <li class="menu-links"><a href="sinopse.html">Sinopse</a></li>
+                    <li class="menu-links"><a href="mundo.html">Mundo</a></li>
+                    <li class="menu-links"><a href="#">Personagens</a></li>
+                    <li class="menu-links"><a href="#">Galeria</a></li>
+                    <li class="menu-links"><a href="#">Teorias</a></li>
+                    
+            </ul>
+            </nav>
+        </div>
+    </header>
+    
+        <div class="container-lista">
+            <ul  class="lista-principal">
+                <li>
+                    <a href="" class="links-lista-p">Asas
+                        <span>
+                            <img src="../imagens/imagens-mundo/sinal-de-seta-para-baixo-para-navegar.png" alt="">
+                        </span>
+                    </a>
+                    <ul class="sublista">
+                        <li><a href="">Primeira Asa</a></li>
+                        <li><a href="">Segunda Asa</a></li>
+                        <li><a href="">Terceira Asa</a></li>
+                        <li><a href="">Quarta Asa</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="links-lista-p">Espécies 
+                        <span>
+                            <img src="../imagens/imagens-mundo/sinal-de-seta-para-baixo-para-navegar.png" alt="">
+                        </span>
+                    </a>
+                    <ul id="sublista-2" class="sublista">
+                        <li><a href="dragon.html">Dragão</a></li>
+                        <li><a href="humano.html">Humano</a></li>
+                        <li><a href="Venin.html">Venin</a></li>
+                        <li><a href="wyvern.html">Wyvern</a></li>
+                        <li><a href="grifo.html">Grifo</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="links-lista-p">Conhecimentos 
+                        <span>
+                            <img src="../imagens/imagens-mundo/sinal-de-seta-para-baixo-para-navegar.png" alt="">
+                        </span>
+                    </a>
+                    <ul class="sublista">
+                        <li><a href="literatura.html">Literatura</a></li>
+                        <li><a href="magia.html">Magia</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="links-lista-p">Quadrantes 
+                    <span>
+                        <img src="../imagens/imagens-mundo/sinal-de-seta-para-baixo-para-navegar.png" alt="">
+                    </span>
+                </a>
+                    <ul class="sublista">
+                        <li><a href="cavaleiros.html">Cavaleiros</a></li>
+                        <li><a href="curandeiros.html">Curandeiro</a></li>
+                        <li><a href="infantaria.html">Infantaria</a></li>
+                        <li><a href="escriba.html">Escriba</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    
+    <main class="conteudo-mundo">
+        <div class="inicio-cavaleiros row">
+            <div class="col-md-8">
+                <div>
+                    <h1>Literatura</h1>
+                    <p><q>No Quadrante, há uma mistura de um hedonismo do tipo 'podemos morrer a qualquer momento' e uma eficiência brutal, tudo em prol do mesmo objetivo.</q></p>
+                    <div class="lista-topicos">
+                        <ol>
+                            <li><a href="#livros">Livros</a>
+                              <ol>
+                                <li><a href="#livros-basgiath">Específicos para o Colégio de Guerra Basgiath</a>
+                                  <ol>
+                                    <li><a href="#livro-brennan">O Livro de Brennan</a></li>
+                                    <li><a href="#codice-dragao">O Códice do Cavaleiro de Dragão</a></li>
+                                    <li><a href="#codigo-conduta">Código de Conduta do Colégio de Guerra Basgiath</a></li>
+                                    <li><a href="#afiar-garra">Afiando a Garra: Um Guia do Professor</a></li>
+                                    <li><a href="#lideranca-segundanistas">Liderança para Segundanistas</a></li>
+                                  </ol>
+                                </li>
+                                <li><a href="#textos-politicos">Textos Políticos</a>
+                                  <ol>
+                                    <li><a href="#tratado-aretia">O Tratado de Aretia</a></li>
+                                    <li><a href="#acordo-aretia">O Acordo de Aretia</a></li>
+                                    <li><a href="#segundo-acordo-aretia">Segundo Acordo de Aretia</a></li>
+                                  </ol>
+                                </li>
+                                <li><a href="#textos-educacionais">Textos Educacionais</a>
+                                  <ol>
+                                    <li><a href="#guia-major-rorilee">Guia da Major Rorilee para Agradar os Deuses, Segunda Edição</a></li>
+                                    <li><a href="#ervas-selvagens">Usos Eficazes de Ervas Selvagens e Cultivadas</a></li>
+                                    <li><a href="#guia-coronel-kaori">Guia de Campo do Coronel Kaori para Dragões</a></li>
+                                    <li><a href="#guia-major-afendra">Guia do Major Afendra para o Quadrante dos Cavaleiros (Edição Não Autorizada)</a></li>
+                                    <li><a href="#guia-coronel-daxton">Guia do Coronel Daxton para Excelência no Quadrante dos Escribas</a></li>
+                                    <li><a href="#navarre-historia">Navarre, Uma História Não Editada</a></li>
+                                    <li><a href="#meu-tempo-cadete">Meu Tempo como Cadete: Uma Memória</a></li>
+                                    <li><a href="#navarre-unida">Navarre Unida, Um Estudo de Sobrevivência</a></li>
+                                    <li><a href="#sacrificio-dragoes">O Sacrifício dos Dragões</a></li>
+                                    <li><a href="#taticas-pessoal">Táticas, Uma Memória Pessoal</a></li>
+                                    <li><a href="#taticas-moderna">Táticas, Um Guia Moderno para Combate Aéreo</a></li>
+                                    <li><a href="#estudo-marcas">Um Estudo sobre Marcas</a></li>
+                                    <li><a href="#magia-universal">Magia: Um Estudo Universal para Cavaleiros</a></li>
+                                    <li><a href="#dom-seis">O Dom dos Seis Primeiros</a></li>
+                                    <li><a href="#jornada-seis">A Jornada dos Seis Primeiros</a></li>
+                                    <li><a href="#guia-major-frederick">Guia Moderno do Major Frederick para Curandeiros</a></li>
+                                    <li><a href="#codigo-chricton">Código de Chricton</a></li>
+                                    <li><a href="#tomo-krovlan">Tomo Sem Título sobre a Língua Krovlan</a></li>
+                                    <li><a href="#historia-seis">A História Completa dos Seis Primeiros</a></li>
+                                    <li><a href="#sacrificio-dragoes-2">O Sacrifício dos Dragões</a></li>
+                                    <li><a href="#grifos-poromiel">Grifos de Poromiel, Um Estudo em Combate</a></li>
+                                    <li><a href="#historia-tyrrish">Sobre a História Tyrrish, Uma Prestação de Contas Completa, Terceira Edição</a></li>
+                                    <li><a href="#ultimo-almirante">O Último Almirante, Uma Memória do Almirante Levian Croslight</a></li>
+                                    <li><a href="#lado-negro-magia">O Lado Negro da Magia</a></li>
+                                    <li><a href="#regalia-vermelha">Regalia Vermelha</a></li>
+                                    <li><a href="#flagelo-tempos">O Flagelo de Nossos Tempos</a></li>
+                                    <li><a href="#anatomia-inimigo">Um Estudo na Anatomia do Inimigo</a></li>
+                                    <li><a href="#ressurgimento-mal">O Ressurgimento do Mal, Uma Linha do Tempo</a></li>
+                                  </ol>
+                                </li>
+                                <li><a href="#textos-poromish">Textos Poromish</a>
+                                  <ol>
+                                    <li><a href="#aristocracia-poromiel">Sobre a Aristocracia de Poromiel</a></li>
+                                    <li><a href="#guia-tatico-dragoes">O Guia Tático para Derrotar Dragões</a></li>
+                                    <li><a href="#canon-voador">O Cânon do Voador</a></li>
+                                    <li><a href="#guia-capita-lera">Guia da Capitã Lera Dorrell para Vencer os Venin</a></li>
+                                    <li><a href="#venin-compendio">Venin, Um Compêndio</a></li>
+                                    <li><a href="#estudo-major-edvard">Estudo Não Credenciado do Major Edvard Tiller sobre os Venin</a></li>
+                                  </ol>
+                                </li>
+                                <li><a href="#textos-proibidos">Textos Proibidos e Pesquisa Não Publicada</a>
+                                  <ol>
+                                    <li><a href="#fabulos-terras-desoladas">Fábulas das Terras Desoladas</a></li>
+                                    <li><a href="#rebelião-tyrrish">A Rebelião Tyrrish, Uma História Proibida</a></li>
+                                    <li><a href="#historia-krovland">Uma História da Segunda Revolta de Krovland—Rascunho</a></li>
+                                    <li><a href="#subjugados-krovlan">Subjugados: A Segunda Revolta do Povo Krovlan</a></li>
+                                    <li><a href="#unnbriel-dunne">Unnbriel: Ilha de Dunne</a></li>
+                                    <li><a href="#hedotis-hedeon">Hedotis: Ilha de Hedeon</a></li>
+                                    <li><a href="#zehyllna-zihnal">Zehyllna: Ilha de Zihnal</a></li>
+                                  </ol>
+                                </li>
+                                <li><a href="#diarios">Diários</a>
+                                  <ol>
+                                    <li><a href="#diario-warrick">O Diário de Warrick de Luceras</a></li>
+                                    <li><a href="#diario-lyra">O Diário de Lyra de Morraine</a></li>
+                                    <li><a href="#diario-lilith">Diário da Capitã Lilith Sorrengail</a></li>
+                                    <li><a href="#diario-augustine">Diário do General Augustine Melgren</a></li>
+                                  </ol>
+                                </li>
+                              </ol>
+                            </li>
+                            <li><a href="#avisos-publicos">Avisos Públicos</a>
+                              <ol>
+                                <li><a href="#aviso-200">Aviso Público 200.417</a></li>
+                                <li><a href="#aviso-628-85">Aviso Público 628.85</a></li>
+                                <li><a href="#aviso-628-86">Aviso Público 628.86</a></li>
+                                <li><a href="#aviso-634-23">Aviso Público 634.23</a></li>
+                                <li><a href="#anuncio-sem-titulo-1">Anúncio Público, Sem Título</a></li>
+                                <li><a href="#anuncio-sem-titulo-2">Anúncio Público, Sem Título</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header text-center">Humanos
+                    </div>
+                    <div class="card-body">
+                        <img src="../imagens/imagens-mundo/RidersSymbolAmazon.webp" alt="" class="mx-auto d-block">
+                    </div>
+                    <div class="card-footer">
+                        Lozalizado: <small><a href="">Academia de guerra Basgiath</a></small>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <section><div class="artigo">
+            <h4>O Livro de Brennan</h4>
+            <p>Por Brennan Sorrengail</p>
+            <ul>
+              <li>Adendo Pessoal de Violet Sorrengail; "Eu não vou morrer hoje."[1]</li>
+              <li>Adendo Pessoal de Violet Sorrengail; "Eu não vou morrer hoje. Eu vou salvá-lo."[2]</li>
+              <li>Página 2; "Mira, você é uma Sorrengail, então você vai sobreviver. Talvez não tão espetacularmente quanto eu, mas nem todos podem atingir meus padrões, certo? Brincadeiras à parte, isso é tudo o que aprendi. Mantenha-o seguro. Mantenha-o escondido. Você tem que viver, porque Violet está observando. Você não pode deixá-la ver você cair. Brennan”[3]</li>
+              <li>Página 3; "Você sobreviveu ao Parapeito. Bom. Seja observadora nos próximos dias e não faça nada para chamar a atenção para si mesma. Eu desenhei um mapa que mostra não apenas onde as salas de aula estão, mas onde os instrutores se encontram também. Eu sei que você está nervosa com os desafios, mas não deveria estar, não com aquele seu gancho de direita. As partidas podem parecer aleatórias, mas não são. O que os instrutores não lhe dizem é que eles decidem os desafios na semana anterior, Mira. Qualquer cadete pode solicitar um desafio, sim, mas os instrutores designarão suas partidas com base na eliminação dos mais fracos. Isso significa que, uma vez que o combate corpo a corpo real comece, os instrutores já saberão quem você enfrentará naquele dia. Aqui está o segredo—se você souber onde procurar e puder sair sem ser vista, saberá quem está lutando para que possa se preparar.”[3]</li>
+              <li>Página 46; "Não subestime o desafio da manopla, Mira. Ela é projetada para testar seu equilíbrio, força e agilidade. Os tempos não importam para essa merda, apenas que você chegue ao topo. Alcance as cordas quando precisar. Chegar em último é melhor do que chegar morta."[4]</li>
+              <li>Página 47; "Todo mundo pensa que a maioria dos cadetes Cavaleiros morre de fogo de dragão. A verdade é que geralmente é a gravidade que nos pega."[5]</li>
+              <li>Página 50; "Só porque você sobrevive à Debulha não significa que você sobreviverá à viagem para o campo de voo. Ser escolhido não é o único teste, e se você não conseguir segurar seu assento, voará direto para o chão."[6]</li>
+              <li>Página 61; "Não pire se você não conseguir canalizar imediatamente os poderes do seu dragão, Mira. Sim, eu sei que você tem que ser a melhor em tudo, mas isso não é algo que você pode controlar. Eles canalizarão quando sentirem que você está pronta. E quando o fizerem, é melhor você estar pronta para manifestar um sinal. Até então, você não está pronta. Não force a barra."[7]</li>
+              <li>Página 64; "O primeiro impulso de poder é inconfundível. A primeira vez que ele se forma para você, te envolve com um suprimento aparentemente infinito de energia, você ficará viciada no barato, nas possibilidades de tudo o que você pode fazer com ele, no controle que você segura na palma da sua mão. Mas aqui está a questão, esse poder pode rapidamente se virar e controlar você."[8]</li>
+              <li>Página 70; "Eu sei que você não quer ouvir isso, mas às vezes você tem que saber quando levar o golpe mortal, Mira. É por isso que você tem que ter certeza de que Violet entra no Quadrante dos Escribas. Ela nunca será capaz de tirar uma vida."[9]</li>
+              <li>Página 71; "Mas ainda mais difícil do que tirar uma vida é não fazer nada enquanto uma é extinta ao seu lado. Mantenha seus olhos para frente, Mira."[10]</li>
+              <li>Página 77; "A Batalha de Esquadrão é mais importante do que os líderes de ala deixam transparecer. Eles gostam de brincar que é um jogo, que são apenas direitos de se gabar para os líderes de esquadrão e o esquadrão vencedor, mas não é. Eles estão todos observando. O comandante, os professores, os oficiais comandantes—Eles estão observando para ver quem vai chegar ao topo. Eles estão salivando para ver quem vai cair."[11]</li>
+              <li>Página 80; "Vencer os Jogos de Guerra não é sobre força. É sobre astúcia. Para saber como atacar, você tem que entender onde seus inimigos—seus amigos—são mais vulneráveis. Ninguém permanece amigo para sempre, Mira. Eventualmente, aqueles mais próximos de nós se tornam nossos inimigos de alguma forma, mesmo que seja através de amor bem-intencionado ou apatia, ou se vivermos o suficiente para nos tornarmos seus vilões."[12]</li>
+              <li>Página 84; "É uma coisa cruzar o parapeito no seu primeiro ano. Mas ver inúmeros candidatos perderem suas vidas para ele também parece um pouco como morrer. Não assista se puder evitar."[13]</li>
+              <li>Página 91; "Em algum momento, provavelmente durante seu segundo ano, você perceberá que a confiança que sente por seus amigos e familiares não é nada comparada à lealdade que você desenvolve pelo seu esquadrão."[14]</li>
+              <li>Página 96; "Há um curso no segundo ano sobre o qual não posso te contar, a não ser para dizer que é um inferno. Meu único conselho? Não irrite o dragão de ninguém mais."[15]</li>
+              <li>Adendo pessoal de Tairneanach citado pela Cadete Violet Sorrengail; "Nós não comemos nossos aliados."[16]</li>
+            </ul>
+          </div>
+
+          <div class="artigo">
+            <p>É uma fração do comprimento de outros livros de regras de divisão, provavelmente porque os cavaleiros têm dificuldade em obedecer às regras.</p>
+            <ul>
+              <li>Artigo Um, Seção Um; "Um dragão sem seu cavaleiro é uma tragédia, um cavaleiro sem seu dragão está morto."[17]</li>
+              <li>Artigo Um, Seção Dois; "Um dragão determina seu último voo e o de seu cavaleiro."[18]</li>
+              <li>Artigo Dois: "Fingir ser um oficial comissionado é uma ofensa punível."[19]</li>
+              <li>Artigo Três, Seção Desconhecida; "É ilegal para um cavaleiro causar dano a outro enquanto em uma formação de quadrante ou na presença supervisora de um cadete de classificação superior, pois isso diminuirá a eficácia da ala."[20]</li>
+              <li>Artigo Três, Seção Dois; "É uma ofensa executável atacar qualquer cadete enquanto dorme."[17]</li>
+              <li>Artigo Três, Seção Seis, Adendo B; “Um cavaleiro só pode trazer para o quadrante os itens que pode carregar e não deve ser separado desses itens, não importa o que sejam, pois, uma vez carregados através do parapeito, são considerados parte de sua pessoa”[4]</li>
+              <li>Escrito para tornar o roubo uma ofensa executável, mas ao fazê-lo, deu a qualquer item carregado através do parapeito o status de fazer parte do cavaleiro.[4]</li>
+              <li>Artigo Quatro, Seção Um; "Todos os pertences dos cadetes estão sujeitos a busca a critério do comando."[21]</li>
+              <li>Artigo Quatro, Seção Dois; "A disciplina de um cadete segue sua cadeia de comando antes de ser levada ao quadro."[21]</li>
+              <li>Artigo Quatro, Seção Três; "Líderes de quadrante não podem se machucar sem motivo e convocar um quórum de líderes de ala, outros líderes do Quadrante dos Cavaleiros não podem ser prejudicados."[22]</li>
+              <li>Artigo Cinco, Seção Sete; "Embora não seja proibido, os cadetes são fortemente incentivados a não desenvolver fortes laços românticos enquanto estudam no quadrante para a eficiência da unidade."[23]</li>
+              <li>"Embora a cadeia de comando possa ser consultada, a palavra final em qualquer punição ou repercussão acadêmica cabe ao gabinete do comandante."[24]</li>
+              <li>"Embora os cadetes sejam fortemente incentivados a não formar laços românticos enquanto estudam no quadrante, os tenentes têm permissão para se casar com quem escolherem após a formatura."[25]</li>
+              <li>Artigo Oito, Seção Um; "Convocar cadetes para o serviço ativo em tempos de guerra só pode ser autorizado pelo General Comandante de Basgiath."[26]</li>
+              <li>Artigo Desconhecido, Seção Desconhecida; "Pessoas dentro do mesmo esquadrão não podem se matar." ... "Desafios entre companheiros de esquadrão são proibidos."[27]</li>
+            </ul>
+          </div>
+
+
+          <div class="artigo">
+            <h4>Código de Conduta do Colégio de Guerra Basgiath</h4>
+            <ul>
+              <li>Artigo Dois, Seção Três; "Exceto em caso de invasão, apenas cavaleiros e escribas designados são permitidos no Quadrante dos Cavaleiros. Entrar sem convite como infantaria ou mesmo curandeiro é acolher uma morte rápida."[28]</li>
+              <li>Artigo Quatro, Seção Um; "Cadetes que forem encontrados ausentes sem licença estarão sujeitos a conselho de guerra por sua cadeia de comando, se não forem executados à vista."[19]</li>
+              <li>Adendo 5.2; "No melhor interesse de preservar a paz dentro de Navarre, não mais de três cadetes portando relíquias da rebelião podem ser designados para qualquer esquadrão de qualquer quadrante."[29]</li>
+              <li>Adendo 5.3; "Além das mudanças do ano passado, aqueles marcados reunidos em grupos de três ou mais agora serão considerados um ato de conspiração sediciosa e são, por este meio, uma ofensa capital."[29]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Afiando a Garra: Um Guia do Professor</h4>
+            <p>Escrito pela Coronel Tispany Calthea.</p>
+            <p>"Existem duas razões pelas quais os cadetes cavaleiros não recebem as mesmas férias de verão e inverno que os outros: Primeiro, os civis não reagem bem aos dragões vagando casualmente por suas aldeias. Segundo, criar tigres para a guerra requer trancar suas jaulas para que não se voltem uns contra os outros... ou contra você."[30]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Liderança para Segundanistas</h4>
+            <p>Escrito pelo Major Pipa Donans.</p>
+            <p>"O comando é construído sobre respeito, regras e obediência. Os esquadrões são construídos sobre confiança."[31]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Textos Políticos</h4>
+            <div class="sub-artigo">
+              <h5>O Tratado de Aretia</h5>
+              <p>Adendo 4.2; "Quanto aos 107 inocentes, os filhos dos oficiais executados, eles agora carregam o que será conhecido como a relíquia da rebelião, transferida pelo dragão que realizou a justiça do rei. E para mostrar a misericórdia de nosso grande rei, todos eles serão recrutados para o prestigioso Quadrante dos Cavaleiros em Basgiath, para que possam provar sua lealdade ao nosso reino com seu serviço ou com suas vidas."[32]</p>
+            </div>
+          
+            <div class="sub-artigo">
+              <h5>O Acordo de Aretia</h5>
+              <p>Artigo Dois, Seção Um; "Voadores e cavaleiros são considerados iguais em todos os aspectos, com exceção da estrutura da ala. Os cavaleiros manterão suas alas, seções e esquadrões, bem como manterão seu comando. Cada deriva será absorvida por um esquadrão, e seu líder substituirá o atual oficial executivo do esquadrão para coesão e eficiência da unidade."[33]</p>
+            </div>
+          
+            <div class="sub-artigo">
+              <h5>Segundo Acordo de Aretia</h5>
+              <p>Assinado durante os eventos de Tempestade de Ônix. Um resultado do acordo dá a Xaden Riorson o título de Duque de Tyrrendor.[34] Também afirma que Tyrrendor tem comando independente de seu exército, sob o comando de Ulices Ferris e Kylynn.[35] O acordo também concede a todos aqueles que voaram por Aretia a serem recebidos de volta com um perdão total por sua traição e sedição. O termo final do acordo permite que Andarna acesse para caçar na floresta do Rei Tauri sempre que quiser.[36]</p>
+            </div>
+          </div>
+
+          <div class="artigo">
+            <h4>Guia da Major Rorilee para Agradar os Deuses, Segunda Edição</h4>
+            <ul>
+              <li>"É uma ofensa grave contra Malek manter os pertences de um ente querido falecido. Eles pertencem ao além com o deus da morte e dos falecidos. Na ausência de um templo adequado, qualquer fogo serve. Aquele que não queima para Malek será queimado por Malek."[37]</li>
+              <li>"Enquanto muitos pregam lealdade a Hedeon acima de todos os outros, especialmente na Província de Calldyr, acho que favorecer Zihnal tem apelo universal. Todos querem sabedoria, mas precisam de sorte."[38]</li>
+              <li>"É imprudente favorecer um deus acima de outro. Melhor evitar todos eles do que mostrar favoritismo entre um panteão ciumento e prodigioso."[39]</li>
+              <li>"O deus da sabedoria é o mais complicado de aplacar. Hedeon parece responder apenas aqueles que não rezam para ele."[40]</li>
+              <li>"Enquanto a maioria das divindades permite que os atendentes do templo escolham seu cronograma de serviço, apenas duas exigem uma vida inteira de dedicação: Dunne e Loial. Pois tanto a guerra quanto o amor mudam as almas irrevogavelmente."[41]</li>
+              <li>"Dedicar-se ao trabalho do templo não é apenas uma busca nobre. Tornar-se sumo sacerdote ou sacerdotisa é o mais próximo que a maioria de nós chegará de tocar o poder dos deuses. O resto são cavaleiros."[42]</li>
+              <li>"Não há deusa mais irada que Dunne. Entrar em Seu templo cortará a alma de qualquer atendente que tenha evitado Sua graça."[43]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Usos Eficazes de Ervas Selvagens e Cultivadas</h4>
+            <p>Escrito pelo Capitão Lawrence Medina.</p>
+            <p>"Existe uma arte do veneno não discutida, e essa é o tempo. Apenas um mestre pode dosar e administrar adequadamente para um início eficaz. Deve-se levar em conta a massa do indivíduo, bem como o método de entrega."[44]</p>
+          </div>
+
+          <div class="artigo">
+            <h4>Guia de Campo do Coronel Kaori para Dragões</h4>
+            <ul>
+              <li>"Dragões azuis descendem da extraordinária linhagem Gormfaileas. Conhecidos por seu tamanho formidável, são os mais implacáveis, especialmente no caso do raro Azul Cauda de Adaga, cujos espinhos em forma de faca na ponta da cauda podem destrinchar um inimigo com um único movimento."[45]</li>
+              <li>"O Dia da Apresentação é diferente de qualquer outro. O ar está carregado de possibilidades e, possivelmente, do fedor de enxofre de um dragão que foi ofendido. Nunca olhe um vermelho nos olhos. Nunca recue diante de um verde. Se você mostrar apreensão a um marrom... bem, simplesmente não faça."[46]</li>
+              <li>"Não há nada tão humilhante, ou tão inspirador, quanto testemunhar a Debulha... para aqueles que sobrevivem a ela, de qualquer forma."[47]</li>
+              <li>"Embora este oficial se considere um especialista em todos os assuntos relacionados a dragões, há muito que não sabemos sobre a forma como os dragões se governam. Existe uma hierarquia clara entre os mais poderosos, e a deferência é paga aos anciãos, mas não consegui discernir como eles fazem leis para si mesmos ou em que ponto um dragão decidiu vincular apenas um cavaleiro, em vez de buscar melhores chances com dois."[48]</li>
+              <li>"Não há laço mais forte do que o entre dois dragões acasalados. Ele vai além da profundidade do amor ou adoração humana para uma necessidade primordial e inegável de proximidade. Um não pode sobreviver sem o outro."[49]</li>
+              <li>"É o vale acima da Casa Riorson, aquecido por energia térmica natural, que é seu maior trunfo. Pois ali estão os locais de incubação originais da Linhagem Dubhmadinn, da qual descendem dois dos maiores dragões de nosso tempo—Codagh e Tairneanach."[50]</li>
+              <li>"Como os dragões guardam ferozmente seus filhotes e qualquer informação sobre seu desenvolvimento, apenas quatro fatos são conhecidos sobre o Sono Sem Sonhos. Primeiro, é um momento crítico de rápido crescimento e desenvolvimento. Segundo, a duração varia de raça para raça. Terceiro, como o nome sugere, é sem sonhos, e quarto, eles acordam famintos."[51]</li>
+              <li>"Dragões não respondem aos caprichos dos homens."[52]</li>
+              <li>"No terceiro ano, um cavaleiro deve atingir controle total e completo sobre seus escudos. Caso contrário, em momentos de extremo estresse, eles são suscetíveis a serem não apenas influenciados pelas emoções de seu dragão, mas controlados por elas."[53]</li>
+              <li>"Direi uma coisa sobre o fogo de dragão. Ele mata rapidamente."[54]</li>
+              <li>"Não confunda o vínculo de um dragão com lealdade. Se você espera que um dragão escolha seu cavaleiro em detrimento do bem-estar de sua própria espécie, prepare-se para duas coisas: decepção e morte."[55]</li>
+              <li>"O que sabemos sobre dragões não é nada comparado ao que não sabemos."[56]</li>
+              <li>"Nenhum cavaleiro jamais sobreviveu à perda de seu dragão. Não consigo imaginar querer isso."[57]</li>
+              <li>"A única coisa mais teimosa que um dragão é seu cavaleiro."[58]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Guia do Major Afendra para o Quadrante dos Cavaleiros (Edição Não Autorizada)</h4>
+            <ul>
+              <li>"Existe um equívoco de que é matar ou morrer no Quadrante dos Cavaleiros, como um todo, não estão lá para assassinar outros cadetes... a menos que haja escassez de dragões naquele ano ou um cadete seja um passivo para sua ala. Então as coisas podem ficar... interessantes."[20]</li>
+              <li>"O ringue de combate é onde os cavaleiros são feitos ou quebrados. Afinal, nenhum dragão respeitável escolheria um cavaleiro que não pode se defender, e nenhum cadete respeitável permitiria que tal ameaça à ala continuasse treinando."[22]</li>
+              <li>"É, portanto, natural que quanto mais poderoso o dragão, mais poderoso o sinal que seu cavaleiro manifesta. Deve-se ter cuidado com o cavaleiro forte que se liga a um dragão menor, mas ainda mais cautela com o cadete não ligado, que não parará por nada para aproveitar a chance de se vincular."[59]</li>
+              <li>"A visão mais preocupante para qualquer instrutor é, sem dúvida, quando os poderes dão errado. Perdemos nove cadetes no meu primeiro ano para sinais que não podiam ser controlados desde sua primeira manifestação. Que pena."[60]</li>
+              <li>"A morte de um cadete é uma tragédia inevitável, mas aceitável. Esse processo afina o rebanho, deixando apenas os cavaleiros mais fortes, e desde que a causa da morte não viole o Códice, qualquer cavaleiro envolvido em extinguir a vida de outro não será punido."[61]</li>
+              <li>"A incapacidade de controlar um sinal poderoso é tão perigosa para um cavaleiro—e para todos em sua vizinhança—quanto nunca manifestar um."[62]</li>
+              <li>"Não há momento tão gratificante, tão emocionante, tão... anticlimático quanto uma Formatura do Quadrante dos Cavaleiros. É a única vez que invejei o Quadrante da Infantaria. Agora esses cadetes sabem como realizar uma cerimônia."[63]</li>
+              <li>"O que ninguém diz abertamente é que, embora todos os quatro quadrantes obedeçam ao Código de Conduta, a primeira responsabilidade de um cavaleiro é com o Códice, que muitas vezes substitui os regulamentos pelos quais outros quadrantes vivem. Por definição: os cavaleiros criam suas próprias regras."[64]</li>
+              <li>"Existe uma desconfiança natural que deve ser superada entre os cadetes da infantaria e os cavaleiros. Isso existe principalmente porque os cavaleiros nunca confiarão que a infantaria tenha a coragem de manter a linha quando os dragões chegarem, e a infantaria nunca confiará que os dragões não os comerão."[65]</li>
+              <li>"As coisas que acontecem a portas fechadas no Quadrante dos Cavaleiros para transformar jovens cadetes em cavaleiros completos são suficientes para revirar o estômago dos mais fortes. Aqueles propensos a náuseas não devem bisbilhotar."[66]</li>
+              <li>"A cada poucos anos, surge um esquadrão que desafia todas as expectativas. Eles sobem na hierarquia, garantem todos os emblemas, vencem todos os desafios. E então... eles inexplicavelmente vacilam, depois caem. Eles chamam isso de efeito de burnout: eles brilham rápido demais, muito intensamente para sustentar o ritmo. Triste, na verdade, mas levemente divertido vê-los se voltarem uns contra os outros."[67]</li>
+              <li>"Deuses nos livrem das ambições dos segundanistas. Eles pensam que experimentaram tudo porque sobreviveram ao primeiro ano, mas, na realidade, eles só sabem o suficiente para se matarem."[68]</li>
+              <li>"O único sinal mais aterrorizante que um inntinnsic é um contador de verdades. E ainda os deixamos viver."[69]</li>
+              <li>"O único crime pior do que assassinar um cadete é o ato incompreensível de atacar a liderança."[70]</li>
+              <li>"O domínio do próprio sinal não ocorre em Basgiath, nem nos anos imediatamente seguintes. Nenhum cavaleiro vivo realmente acredita que atingiu as limitações de seu poder. Os mortos podem sentir de forma diferente."[71]</li>
+              <li>"Nunca dê as costas para um cavaleiro."[36]</li>
+            </ul>
+          </div>
+
+
+          <div class="artigo">
+            <h4>Guia do Coronel Daxton para Excelência no Quadrante dos Escribas</h4>
+            <ul>
+              <li>"Não há nada mais sagrado do que os Arquivos. Até os templos podem ser reconstruídos, mas os livros não podem ser reescritos."[72]</li>
+              <li>"Todos os pedidos de tomos nos Arquivos de Basgiath devem ser registrados e arquivados. Qualquer cadete que não o fizer será denunciado por negligência de dever, além de punido pela perda de qualquer texto que não conseguiu rastrear com precisão."[73]</li>
+              <li>"A primeira vez que você for pego nos Arquivos depois que a porta se fechar à noite será a última. As magias complexas colocadas em prática para preservar nossos textos não são compatíveis com a vida."[74]</li>
+              <li>"A maioria dos cadetes acredita que sua capacidade de recitar fatos históricos os levará ao caminho adepto, mas é na verdade a capacidade de observá-los e contá-los que separa os bibliotecários dos escribas."[75]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Navarre, Uma História Não Editada</h4>
+            <p>Por Coronel Lewis Markham.</p>
+            <ul>
+              <li>"Nos seis séculos de história registrada de dragão e cavaleiro, houve centenas de casos conhecidos em que um dragão simplesmente não consegue se recuperar emocionalmente da perda de seu cavaleiro. Isso acontece quando o vínculo é particularmente forte e, em três casos documentados, até causou a morte prematura do dragão."[76]</li>
+              <li>"Em resposta à Grande Guerra, os dragões reivindicaram as terras ocidentais e os grifos as centrais, abandonando as Terras Desoladas e a memória do General Daramor, que quase destruiu o Continente com seu exército. Nossos aliados navegaram para casa e começamos um período de paz e prosperidade enquanto as províncias de Navarre se uniam pela primeira vez sob a segurança de nossas proteções, sob a proteção dos primeiros cavaleiros vinculados."[77]</li>
+              <li>"O primeiro ataque de grifo conhecido ocorreu em 1 AU (Após a Unificação) perto do que hoje é o posto comercial de Resson. Na fronteira protegida por dragões, o posto sempre foi vulnerável a ataques e, ao longo dos últimos seis séculos, mudou de mãos não menos de onze vezes no que se tornou uma guerra interminável para proteger nossas fronteiras de nossos inimigos sedentos de poder."[78]</li>
+              <li>"Em seus últimos dias de interrogatório, Fen Riorson perdeu contato com a realidade, atacando o reino de Navarre. Ele acusou o Rei Tauri, e todos que vieram antes dele, de uma conspiração tão vasta, tão indizível, que não vale a pena ser repetida por este historiador. A execução foi rápida e misericordiosa para um louco que custou inúmeras vidas."[79]</li>
+              <li>"A Migração do Primeiro Ano é uma das maiores conquistas da unificação de Navarre. Que celebração do espírito humano, deixar uma vida de guerra e entrar em uma de paz, misturando pessoas, línguas e culturas de todas as regiões do continente e formando uma sociedade coesa e unida, cujo único objetivo é a segurança mútua."[80]</li>
+              <li>"O dia em que Augustine Melgren manifestou seu sinal mudou a guerra para o reino de Navarre para sempre."[81]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Meu Tempo como Cadete: Uma Memória</h4>
+            <p>Por General Augustine Melgren.</p>
+            <ul>
+              <li>"Acusar um líder de ala de irregularidades é a mais perigosa de todas as acusações. Se você estiver certo, então falhamos como um quadrante em selecionar os melhores líderes de ala. Se você estiver errado, você está morto."[82]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Navarre Unida, Um Estudo de Sobrevivência</h4>
+            <p>Por Grato Burnell, Curador do Quadrante dos Escribas.</p>
+            <ul>
+              <li>"E nas montanhas da cordilheira Steelridge, os dragões verdes da linhagem Uaineloidsig, conhecidos por seu intelecto aguçado e semblante racional, ofereceram seus locais de incubação ancestrais para o bem da espécie dragão, e as proteções de Navarre foram tecidas pelos Seis Primeiros no que hoje é o Colégio de Guerra Basgiath."[83]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Sacrifício dos Dragões</h4>
+            <p>Escrito pela Major Deandra Naveen.</p>
+            <ul>
+              <li>"Muitos historiadores optam por ignorar os sacrifícios feitos por humanos e dragões para estabelecer Navarre sob as primeiras proteções em favor de elogiar o espírito de unificação, mas eu seria negligente se não mencionasse as perdas sofridas, tanto em termos dos locais de incubação ancestrais de cada raça de dragão quanto dos civis que não sobreviveram à migração em todo o continente resultante da abertura das fronteiras de Navarre... ou daqueles perdidos quando as fechamos."[84]</li>
+              <li>"Não foi sem risco que os primeiros dragões se vincularam aos humanos, pois, embora claramente detivessem o poder, seus cavaleiros vinculados os tornaram a única coisa que não podiam tolerar: vulneráveis. Muitos dragões sofreram a perda de seus cavaleiros vinculados em nome da autopreservação."[85]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Táticas, Uma Memória Pessoal</h4>
+            <p>Escrito pelo Tenente Lyron Panchek.</p>
+            <ul>
+              <li>"Se algum dia optarmos por invadir território inimigo—o que não fazemos—eu escolheria Zolya como meu primeiro alvo. Eliminar a Academia de Voo de Cliffsbane e você elimina anos de cavaleiros de grifo em um único golpe."[86]</li>
+              <li>Parte II; "Embora os voadores apenas usem magias menores, em minha vasta experiência com a Ala Norte, eles são oponentes formidáveis tanto no trabalho mental quanto no combate corpo a corpo. Prestem atenção, jovens cavaleiros: não desembarquem contra eles a menos que sejam forçados a fazê-lo."[35]</li>
+              <li>Parte II; "Para potencial máximo, os cavaleiros devem ser estacionados perto de suas aldeias, se possível. Nada é um motivador mais eficaz do que ver a casa de alguém em chamas."[87]</li>
+            </ul>
+          </div>
+
+
+          <div class="artigo">
+            <h4>Táticas, Um Guia Moderno para Combate Aéreo</h4>
+            <p>Escrito pela Major Constance Cara.</p>
+            <ul>
+              <li>"O clima é o grande equalizador na batalha, igualmente prejudicial ou favorável para ambos os lados, dadas as condições. Sem nossos manipuladores influenciando esse elemento a nosso favor, estamos à sua mercê."[88]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Um Estudo sobre Sinais</h4>
+            <p>Por Major Dalton Sisneros.</p>
+            <ul>
+              <li>"A arte de imbuir vem naturalmente para apenas um punhado de sinais, e automaticamente apenas para um: o sifão."[89]</li>
+              <li>"Os sinais mais raros—aqueles que surgem uma vez em uma geração ou século—se manifestaram simultaneamente com um igual duas vezes em nossos registros, ambos momentos críticos em nossa história, mas apenas uma vez os seis mais poderosos caminharam pelo Continente simultaneamente. Por mais fascinante que esse espetáculo deva ter sido, eu preferiria não viver para vê-lo acontecer novamente."[90]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Magia: Um Estudo Universal para Cavaleiros</h4>
+            <p>Por Coronel Emezine Ruthorn.</p>
+            <ul>
+              <li>"Em sua essência, a magia exige equilíbrio. O que quer que você pegue será recuperado, e não é o portador que determina o preço."[91]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Dom dos Seis Primeiros</h4>
+            <p>Jesinia empresta uma cópia para Violet que parece ter centenas de anos. Ensinou a Violet que os Seis Primeiros não foram os primeiros cavaleiros, mas simplesmente os primeiros a sobreviver.[21]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>A Jornada dos Seis Primeiros</h4>
+            <p>Um relato de segunda mão por Sagar Olsen, Primeiro Curador do Quadrante dos Escribas, Colégio de Guerra Basgiath. Traduzido para a língua comum pela Capitã Madilyn Calros, Décima Segunda Curadora do Quadrante dos Escribas, Colégio de Guerra Basgiath. Traduzido e Redigido para Consumo Acadêmico pelo Coronel Phineas Cartland, Vigésimo Sétimo Curador do Quadrante dos Escribas, Colégio de Guerra Basgiath.</p>
+            <p>Principalmente preenchido com histórias centradas em escribas sobre a Grande Guerra que são fortemente redigidas, com uma passagem vaga sobre descobrir a capacidade de estender as proteções.[92]</p>
+            <ul>
+              <li>"Foi somente quando empurramos as proteções até seus verdadeiros limites, estendendo-as muito além do que pensávamos ser possível e para o que agora questiono como sustentável, que definimos as fronteiras de Navarre, lamentavelmente sabendo que nem todos os cidadãos se beneficiariam de sua proteção."[92]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Guia Moderno do Major Frederick para Curandeiros</h4>
+            <ul>
+              <li>"É minha opinião que, de todos os poderes de sinal que os cavaleiros fornecem, a cura é a mais preciosa, mas não podemos nos permitir ficar complacentes na companhia de tal sinal. Pois os curandeiros são raros, e os feridos não são."[3]</li>
+              <li>"No caso de você se deparar com um veneno que não reconhece, é melhor tratar com todos e quaisquer antídotos. De qualquer forma, o paciente morrerá, mas pelo menos assim você terá aprendido algo."[93]</li>
+              <li>"Curandeiros não são curadores. Curadores estão ligados ao Código de Chricton, jurados a ajudar todos em tempo de necessidade e nunca prejudicar um coração pulsante. Curandeiros são cavaleiros. Eles só juraram ao Códice. Eles podem tão facilmente prejudicar quanto curar."[94]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Código de Chricton</h4>
+            <p>Código de conduta do Colégio de Guerra Basgiath para o Quadrante dos Curandeiros.[94]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Tomo Sem Título sobre a Língua Krovlan</h4>
+            <p>Dado a Dain Aetos por Violet Sorrengail antes que ele cruzasse o parapeito em seu dia de recrutamento.[45]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>A História Completa dos Seis Primeiros</h4>
+            <p>Propriedade dos Arquivos do Colégio de Guerra Basgiath. Marcado como Classificado nas folhas de guarda. Emprestado a Violet por Jesinia Neilwart. Ele entra em detalhes sobre os complexos relacionamentos interpessoais dos Seis Primeiros, e um pouco sobre sua experiência de batalha durante a Grande Guerra. Ele rotula o inimigo como General Daramor e os aliados de Navarre como os reinos da ilha.[95]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Sacrifício dos Dragões</h4>
+            <p>Escrito por um dos predecessores do Professor Kaori. Aprofunda-se em por que Basgiath foi escolhido para a localização das proteções.[95]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Grifos de Poromiel, Um Estudo em Combate</h4>
+            <p>Escrito pelo Major Garion Savoy.</p>
+            <ul>
+              <li>"Embora os cavaleiros de grifo não sejam capazes de produzir sinais, eles não são impotentes. Na verdade, alguns argumentariam que eles aprimoraram a magia inferior, especialmente o trabalho mental, na arma mais mortal de todas. Subestimá-los é um erro."[96]</li>
+              <li>"Alguns sinais de combate são temíveis, mas qualquer cavaleiro pode ser derrubado por duas coisas: falta de um escudo... ou um esforço em grupo. Nunca dê ao inimigo a vantagem de cercá-lo."[97]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Sobre a História Tyrrish, Um Relato Completo, Terceira Edição</h4>
+            <p>Escrito pelo Capitão Fitzgibbons.</p>
+            <ul>
+              <li>"Metade palácio, metade quartel, mas inteiramente fortaleza, a Casa Riorson nunca foi invadida por um exército. Ela sobreviveu a inúmeros cercos e três ataques completos antes de cair sob a chama dos próprios dragões que existia para servir."[98]</li>
+              <li>"Como nossa maior província, Tyrrendor fornece o maior número de recrutas para nossas forças. No entanto, a força de Navarre não é encontrada apenas nos soldados Tyrrish, mas também no recurso mais valioso da província: Talladium. Perdê-lo condenaria Navarre."[99]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Último Almirante, Uma Memória do Almirante Levian Croslight</h4>
+            <p>Escrito pelo Almirante Levian Croslight.</p>
+            <ul>
+              <li>"Não consigo imaginar uma vida sustentável além do Mar Esmeralda. Nenhum navio jamais sobreviveu às tempestades que formam suas ondas com pontas de gelo, e os únicos marinheiros que retornam de sua exploração o fazem derrotados."</li>
+            </ul>
+          </div>
+
+
+          <div class="artigo">
+            <h4>O Lado Negro da Magia</h4>
+            <p>Dado a Violet por Jesinia ou pela Rainha Maraya enquanto ela pesquisa uma cura para venin.[101]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Regalia Vermelha</h4>
+            <p>Dado a Violet por Jesinia ou pela Rainha Maraya enquanto ela pesquisa uma cura para venin.[101]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Flagelo de Nossos Tempos</h4>
+            <p>Dado a Violet por Jesinia ou pela Rainha Maraya enquanto ela pesquisa uma cura para venin.[101]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Um Estudo na Anatomia do Inimigo</h4>
+            <p>Escrito pelo Capitão Dominic Prishel. Dado a Violet por Jesinia ou pela Rainha Maraya enquanto ela pesquisa uma cura para venin.[101]</p>
+            <ul>
+              <li>"Nas primeiras vinte e quatro horas de remoção da magia da fonte, o sujeito—um asim—apresentou-se equilibrado. Mas a abstinência rapidamente revelou a verdadeira natureza do sujeito, exigindo a transferência imediata do sujeito para a segunda fase do estudo. Seus resultados podem ser encontrados com o grupo trinta e três B sob a categoria: MORTE POR FOGO, e subsequente grupo quarenta e seis C sob a categoria: MORTE POR VENENO.[102]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Ressurgimento do Mal, Uma Linha do Tempo</h4>
+            <p>Escrito por Pierson Haliwell.</p>
+            <ul>
+              <li>"472 AU, Willhaven, Braevick: Com exceção de uma casa, a aldeia foi dessecada da noite para o dia por um único venin estimado como um Sábio. O único adulto entre os três sobreviventes a descreveu como, 'Incrivelmente sem idade. Cabelo tão preto quanto o dia em que nos casamos, mas em vez das linhas de idade que eu esperava, havia veias escarlates salientes ramificando-se de seus olhos com anéis vermelhos.'"[103]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Textos Poromish</h4>
+            <div class="sub-artigo">
+              <h5>Sobre a Aristocracia de Poromiel</h5>
+              <p>Escrito por Pearson Kito.</p>
+              <ul>
+                <li>"Tendo recusado todas as propostas dos reinos da ilha, a Rainha Maraya nomeou seu primo distante, o Visconde Tecarus de Cordyn, como seu herdeiro. Como o visconde está vivendo em sua quinta década e não tem herdeiros diretos próprios, a decisão não tem sido popular."[104]</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Guia Tático para Derrotar Dragões</h4>
+            <p>Escrito pelo Coronel Elijah Joben.</p>
+            <ul>
+              <li>Capítulo Um: "Nunca se esqueça de que os cavaleiros de dragão foram selecionados, treinados e até criados para a crueldade. Esperar misericórdia de um cavaleiro é um erro, pois nenhuma será dada."[105]</li>
+              <li>Capítulo Dois: "Das ondas perigosas do Oceano Arctile às planícies mais baixas do planalto de Tyrrendor, os Penhascos de Dralor se elevam a mais de doze mil pés em alguns lugares, tornando-os inviáveis para voo de grifo. Embora existam três caminhos bem esculpidos dentro de Navarre para subir o planalto, ao longo da fronteira de Krovlan existe apenas um... e é mortal para grifos e voadores. Não tente sob nenhuma circunstância."[106]</li>
+              <li>Capítulo Três: "A maneira mais fácil de derrotar um dragão é matar seu cavaleiro. Embora a criatura provavelmente sobreviva ao golpe, ela ficará atordoada o suficiente para ser abatida."[107]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>O Cânone do Voador</h4>
+            <ul>
+              <li>Capítulo Um: "Quando um grifo se vincula, ele o faz para a vida. Guarde sua vida como guardaria a de seu grifo, pois eles estão para sempre entrelaçados."[108]</li>
+              <li>Capítulo Três: "A gema que lhe é dada na formatura da Academia de Voo de Cliffsbane deve sempre ser usada perto do coração, mas se você não dominar seu controle, ela apenas amplificará sua queda."[109]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Guia da Capitã Lera Dorrell para Vencer o Venin</h4>
+            <p>Propriedade da Academia de Voo de Cliffsbane.</p>
+            <ul>
+              <li>"Foi apenas nos últimos cinquenta anos que percebemos que eles não estavam mais vindo apenas das Terras Desoladas. Eles começaram a recrutar, ensinando aqueles que nunca se vincularam a um grifo a canalizar o que não era deles para pegar, para perturbar o equilíbrio da magia roubando-a da própria fonte. O problema com a humanidade é que muitas vezes consideramos nossas almas um preço justo para o poder."[110]</li>
+              <li>"É um tanto adequado que a única arma capaz de matar um portador das trevas seja a mesma coisa que os levou à falta de alma... poder."[27]</li>
+              <li>"Muitos de nossos mais estimados estrategistas tentaram estimar o ponto de inflexão que se aproxima—onde o resultado da guerra pode ter sido decidido, embora ainda lutemos. Muitos acreditam que isso acontecerá na próxima década. Temo que chegue muito antes disso."[111]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Venin, Um Compêndio</h4>
+            <p>Por Capitão Drake Cordella, a Deriva da Asa Noturna.</p>
+            <ul>
+              <li>"Derrotar um portador das trevas começa com o conhecimento de onde ele se classifica em idade e experiência. Iniciados têm anéis avermelhados nos olhos que vêm e vão dependendo de com que frequência eles drenam. Os olhos dos Asims flutuam em graus de vermelho, e suas veias se distendem quando irritados. Os olhos dos Sábios—aqueles responsáveis pelos iniciados—são permanentemente vermelhos, suas veias perpetuamente distendidas em direção às têmporas, expandindo-se com a idade. Os Magos—seus generais—nunca foram capturados para exame."[112]</li>
+              <li>"Se possível, cace o inimigo durante o dia. Suas marcações são tão facilmente escondidas pelas sombras da noite que não me surpreenderia encontrá-los andando entre nós."[113]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Estudo Não Credenciado do Major Edvard Tiller sobre o Venin</h4>
+            <p>Propriedade da Biblioteca do Visconde Tecarus de Cordyn, dado à Revolução.</p>
+            <ul>
+              <li>"Embora haja algum debate, acredita-se que se tornar venin aumenta um dos sentidos do portador das trevas. É a crença deste estudioso que o responsável pela morte do Rei Grethwild desenvolveu uma visão mais aguçada. Pois nem mesmo os melhores voadores reais de Sua Majestade podiam ver através da escuridão em que o venin se escondia para matar nosso amado rei."</li>
+            </ul>
+          </div>
+
+
+
+          <div class="artigo">
+            <h4>Fábulas das Terras Desoladas</h4>
+            <p>Um livro infantil proibido com uma coleção de histórias que nos alertam contra a tentação da magia e até demonizam os dragões. Sobre Venin portadores das trevas e seus wyverns. Violet recebe uma cópia de seu pai. Violet mais tarde empresta a cópia para Jesinia Neilwart em troca de sua assistência na pesquisa de informações sobre os seis primeiros e as proteções.[95] Foi uma impressão limitada, feita em uma prensa.[92]</p>
+            <ul>
+              <li>O Choro dos Wyverns; "Pois ali, na terra além das sombras, havia monstros que habitavam a noite e se alimentavam das almas das crianças que vagavam muito perto da floresta."[115]</li>
+              <li>A Origem; "Mas foi o terceiro irmão, que ordenou que o céu entregasse seu maior poder, que finalmente derrotou seu irmão ciumento a um preço grande e terrível."[116]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>A Rebelião Tyrrish, Uma História Proibida</h4>
+            <p>Por Coronel Felix Gerault.</p>
+            <ul>
+              <li>"Sua primeira ação verdadeira de rebelião foi buscar aliados, o primeiro dos quais foi o Visconde Tecarus da província Poromish de Krovla."[117]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Uma História da Segunda Revolta de Krovland—Rascunho</h4>
+            <p>Escrito pelo Tenente Coronel Asher Sorrengail. Escondido em seus aposentos compartilhados com a General Lilith Sorrengail.</p>
+            <ul>
+              <li>Página 1; "Uma História da Segunda Revolta de Krovland—Rascunho, por Tenente Coronel Asher Sorrengail."[100]</li>
+              <li>Página 2; "Querida Violet, Minha mais sincera esperança é que você esteja lendo isso ao meu lado, rindo da bagunça gloriosa que é um primeiro rascunho, mas temo que esse não seja o caso. Se agora caminho ao lado de Malek com seu irmão, então guarde este manuscrito com cuidado. Mas se o pior aconteceu e sua mãe se juntou a nós, então você deve proteger este conhecimento com sua própria vida. Dentro destas páginas, você encontrará meu estudo cuidadoso da segunda revolta de Krovland, mas minha filha—lembre-se do que eu te ensinei sobre história: é simplesmente uma coleção de histórias, cada uma influenciada por aquelas que aconteceram antes e dirigindo as que virão. Eu escrevi este estudo para que pudesse ser lido por outros, mas entendido por você. Se o tempo é doce, examine com calma; você encontrará a conexão entre a revolta e a busca por caudas de pena para ser alarmante e esclarecedora. Mas se o tempo realmente acabou e você busca a arma para derrotar aqueles que você só aprendeu através da tradição, então abandone suas vestes e cavalgue para Cordyn. Você sempre lutou com Krovlish, mas eu me certifiquei de que Dain seria capaz caso você precisasse dele... caso ele não escolha cruzar o parapeito neste verão. Se ele seguir os passos de seu pai, você deve encontrar forças para abrir mão de seu afeto por ele. De Cordyn, reserve passagem para Deverelli—você estará segura além do alcance da magia lá—e busque silenciosamente a comerciante Narelle Anselm. Leve a ela o item mais raro que você possui—certifique-se de que é realmente excepcional para receber o que você precisa. Não envie outro em seu lugar. Caso você viaje sob a bandeira de Navarre, cuidado com o rei—ele guarda rancores e fala apenas em lucro. Sinto muito que isso recaia sobre você, minha luz mais brilhante. Confie apenas em Mira. Com amor, Papai."[100]</li>
+            </ul>
+          </div>
+
+
+
+          <div class="artigo">
+            <h4>Subjugado: A Segunda Revolta do Povo Krovlan</h4>
+            <p>Escrito pelo Tenente Coronel Asher Sorrengail.</p>
+            <ul>
+              <li>"Talvez o objetivo disso não seja negar a rebelião, mas apenas ir à guerra com aqueles em quem você confia implicitamente."[101]</li>
+              <li>"Tyrrendor foi o último a cortar contato com as ilhas. A província tem uma reputação por sua liderança astuta, mas neste caso, eu acrescentaria: perspicaz."[118]</li>
+              <li>"Foi sussurrado nos círculos acadêmicos que Cordyn havia fornecido tropas e armamentos para a segunda revolta de Krovlan, mas a pesquisa me levou através do Oceano Arctile até Deverelli, conhecida em nosso reino como a traiçoeira ilha de mercadores, que para minha surpresa pode não ter sido a fonte das armas, mas talvez o corretor."[119]</li>
+              <li>"A revolta falhou repentinamente da noite para o dia em 13 de dezembro de 433 AU, no que foi chamado de Massacre da Meia-Noite. As tropas estrangeiras desapareceram e os rebeldes foram mortos em suas camas pelas forças Poromish. Não é seu desaparecimento que impressiona este estudioso como particularmente cruel, mas sua óbvia traição. Há um ditado em Deverelli: A palavra é o sangue. Quando eles fazem uma troca, negociam um acordo, é considerado lei. Não posso deixar de me perguntar que parte do acordo os rebeldes Krovlan não cumpriram."[120]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Unnbriel: Ilha de Dunne</h4>
+            <p>Escrito pelo Segundo Tenente Asher Daxton (mais tarde renomeado para Asher Sorrengail).</p>
+            <ul>
+              <li>"Há momentos em que olho para o Parapeito, para o próprio ato de Debulha, e me maravilho que os dragões não tenham ido para Unnbriel. O que chamamos de traiçoeiro é a ideia deles de escola primária."[121]</li>
+              <li>"Em uma cultura que adora exclusivamente a deusa da guerra, o sangue é o sacrifício preferido e a covardia é o pecado máximo."[122]</li>
+              <li>"Com uma coloração tão pálida na vegetação, não é surpresa que seja necessária quatro vezes a quantidade de índigo para tingir até mesmo a roupa mais simples. Não posso deixar de me perguntar se as cores do nosso Continente são a exceção, ou se as ilhas são."[123]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Hedotis: Ilha de Hedeon</h4>
+            <p>Escrito pelo Capitão Asher Sorrengail.</p>
+            <ul>
+              <li>"Foi a experiência da minha vida passar esses meses com outros que valorizam o conhecimento tão reverentemente quanto eu. Mas embora sua inteligência e sabedoria me inspirem, sua artifício me aterroriza."[124]</li>
+              <li>"O teste de cidadania para aqueles que desejam residir em Hedotis me lembra o exame de admissão para o Quadrante dos Escribas, mas nosso teste é projetado para medir o quanto um cadete em potencial aprendeu, e o deles parece provar o quanto não aprendeu."[125]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Zehyllna: Ilha de Zihnal</h4>
+            <p>Escrito pelo Major Asher Sorrengail.</p>
+            <ul>
+              <li>"Para viver entre os Zihlni, você deve se preparar para aceitar a sorte como seu guia e o caos como seu padrão."[126]</li>
+              <li>"Às vezes, o melhor presente que o deus da sorte pode dar é sua ausência."[127]</li>
+            </ul>
+          </div>
+          
+          <div class="artigo">
+            <h4>Diários</h4>
+            <div class="sub-artigo">
+              <h5>O Diário de Warrick de Luceras</h5>
+              <p>Traduzido pela Cadete Violet Sorrengail e Dain Aetos.</p>
+              <ul>
+                <li>"Com tudo o que sacrificamos por este reino. É melhor sermos capazes de defendê-lo."[128] - Transcrito apenas pela Cadete Violet Sorrengail</li>
+                <li>"Nunca foi nosso continente. Desde o início, era deles, e simplesmente nos permitiram viver aqui."[129] - Transcrito apenas pela Cadete Violet Sorrengail</li>
+                <li>"O sangue da vida dos seis e um combinados e incendiaram a pedra em uma chuva de ferro."[130]</li>
+                <li>"O sopro da vida dos seis e um combinados e incendiaram a pedra em uma chama de ferro."[131]</li>
+                <li>"Nada mata o amor poderoso e inabalável mais rápido do que ideologias opostas."[132]</li>
+                <li>"Os locais de incubação combinados em Basgiath são o maior trunfo de nossa geração... e nossa maior responsabilidade."[133]</li>
+              </ul>
+            </div>
+          
+            <div class="sub-artigo">
+              <h5>O Diário de Lyra de Morraine</h5>
+              <p>Transcrito e traduzido pela Cadete Jesinia Neilwart.</p>
+              <ul>
+                <li>"Estou sozinha em pensar que o conhecimento das proteções, as proteções que elas fornecem, não deveria beneficiar apenas Navarre, e isso me custou tudo."[134]</li>
+                <li>"Se eu for levada a conselho de guerra por ajudar Braxtyn a defender seu povo, então darei as boas-vindas ao julgamento. Todos que canalizam de dragão e grifo devem prosperar sob as proteções, e agora Aretia será esse refúgio caso algum dos outros retorne."[34]</li>
+              </ul>
+            </div>
+          
+            <div class="sub-artigo">
+              <h5>Diário da Capitã Lilith Sorrengail</h5>
+              <ul>
+                <li>"Às vezes, a diplomacia é melhor servida na ponta da espada."[135]</li>
+                <li>"Asher voltou hoje. Deuses nos ajudem se alguém descobrir. Não tenho certeza se algum dia o perdoarei pelo que ele fez a ela."[136]</li>
+              </ul>
+            </div>
+          
+            <div class="sub-artigo">
+              <h5>Diário do General Augustine Melgren</h5>
+              <ul>
+                <li>"A única coisa mais imprevisível do que a província volátil que é Tyrrendor é seu duque. Há uma razão pela qual a aristocracia reinante nunca deve usar preto."[137]</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="artigo">
+            <h4>Aviso Público 200.417</h4>
+            <p>Transcrito por Racel Lightstone.</p>
+            <p>"Os guardiões não estão mais autorizados a dedicar crianças em serviço a sua divindade favorita. A decisão de servir aos deuses por toda a vida deve ser tomada após a maioridade e por livre e espontânea vontade."[138]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Aviso Público 628.85</h4>
+            <p>Transcrito por Cerella Neilwart.</p>
+            <p>"Neste, o 628º ano de nossa unificação, fica registrado que Aretia foi queimada por dragão de acordo com o Tratado que encerra o movimento separatista. Aqueles que fugiram, sobreviveram, e aqueles que não sobreviveram permanecem sepultados em suas ruínas."[139]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Aviso Público 628.86</h4>
+            <p>Transcrito por Cerella Neilwart.</p>
+            <p>"Como resultado do Tratado de Aretia, o poder de representar a província de Tyrrendor no Senarium do Rei foi transferido da Casa de Riorson para a Casa de Lewellen."[140]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Aviso Público 634.23</h4>
+            <p>Transcrito por Percival Fitzgibbons.</p>
+            <p>"As taxas de recrutamento são dobradas para cada província até novo aviso."[141]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Anúncio Público, Sem Título</h4>
+            <p>Encontrado pela primeira vez na aldeia natal de Rhiannon.</p>
+            <p>"Cuidado com estranhos que procuram abrigo. Neste momento de violações sem precedentes de nossas fronteiras soberanas, contamos com vocês, nossas aldeias fronteiriças, para serem nossos olhos e ouvidos. Nossa segurança depende de sua vigilância. Não acolham estranhos. Sua bondade pode matar."[84]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Anúncio Público, Sem Título</h4>
+            <p>Distribuído no Colégio de Guerra Basgiath pela Professora Devera.</p>
+            <p>"Zolya cai sob o fogo de dragão. A terceira maior cidade da Província de Braevick caiu sob os dragões de fogo azul e seus cavaleiros. Embora a cidade e suas derivas tenham lutado bravamente, a batalha de dois dias terminou na derrota de Poromish. Todos que não evacuaram pereceram. Estima-se que dez mil vidas foram perdidas, incluindo a General Fenella, a Comandante da frota de grifos de Braevick. Todas as rotas comerciais para a cidade foram bloqueadas para evitar mais perda de vidas."[86]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Proclamação Real do Rei Tauri, o Sábio</h4>
+            <p>"O primeiro de julho, aniversário da Batalha de Aretia, é proclamado Dia da Reunificação e será celebrado em toda Navarre nesta data todos os anos para homenagear as vidas perdidas durante a guerra para salvar nosso reino de separatistas e aqueles salvos pelo Tratado de Aretia."[142]</p>
+          </div>
+          
+          <div class="artigo">
+            <h4>Boletim Publicado, Vila de Chantara</h4>
+            <p>Transcrito por Percival Fitzgibbons.</p>
+            <p>"Fica fortemente sugerido que nem dragões nem grifos vinculados sejam autorizados a pousar ou caçar em um raio de uma milha da vila de Chantara, a fim de sustentar os esforços de nossos pastores de ovelhas durante este aumento de demanda."[1]</p>
+          </div>
+
+
+          <h1>Correspondência</h1>
+
+<h2>Oficial</h2>
+
+<div class="artigo">
+  <h4>A Rebelião Tyrrish, um resumo oficial para o Rei Tauri</h4>
+  <p>Escrito por Lilith Sorrengail.</p>
+  <p>"Sabendo que estou em desacordo direto com as ordens do General Melgren, estou oficialmente me opondo ao plano estabelecido no briefing de hoje. Não é a opinião deste general que os filhos dos líderes da rebelião devam ser forçados a testemunhar as execuções de seus pais. Nenhuma criança deve assistir seu pai ser morto."[144]</p>
+</div>
+
+<div class="artigo">
+  <h4>Aviso Oficial</h4>
+  <p>Do Comandante Panchek para a General Sorrengail.</p>
+  <p>"Não é inédito que um candidato entre no Quadrante dos Cavaleiros tendo sido pago para assassinar um cadete. Lamento que Mira tenha sido alvo, mas orgulho-me de dizer que ela despachou a ameaça rapidamente. Você tem inimigos, General."[145]</p>
+</div>
+
+<div class="artigo">
+  <h4>Recomendação para Premiação</h4>
+  <p>Do Major Potsdam para a General Sorrengail.</p>
+  <p>"Por bravura além do dever na batalha de Strythemore, onde sua bravura resultou não apenas na destruição de uma bateria atrás das linhas inimigas, mas também salvou as linhas de uma companhia inteira de infantaria. Recomendo que Mira Sorrengail receba a Estrela de Navarre. Mas se o critério não for atendido, o que garanto que foi, rebaixar para a Ordem da Garra seria uma pena, mas suficiente."[146]</p>
+</div>
+
+<div class="artigo">
+  <h4>Memorando</h4>
+  <p>Do Professor Carr para a General Sorrengail.</p>
+  <p>"Embora seu sinal extraordinário permita que ela estenda as proteções ao redor de si mesma e de seu dragão, a Cadete Sorrengail carece da capacidade consistente de produzir suas próprias proteções sem extremo sofrimento emocional. Lamento informar que duvido que essa habilidade se desenvolva a tempo. Eu tinha tantas esperanças para ela."[147]</p>
+</div>
+
+<div class="artigo">
+  <h4>As Últimas Palavras de Fen Riorson (Redigido)</h4>
+  <p>"Vocês são todos covardes."[148]</p>
+</div>
+
+<div class="artigo">
+  <h4>As Últimas Palavras de Tracila Cardula (Redigido)</h4>
+  <p>"Que se fodam. Minha filha e eu encontraremos Malek com consciências limpas. Vocês e suas filhas poderão dizer o mesmo quando eles vierem buscá-las?"[149]</p>
+</div>
+
+<div class="artigo">
+  <h4>Registros Oficiais: Quadrante dos Escribas</h4>
+  <p>Escrito pelo Coronel Lewis Markham, Comandante do Quadrante dos Escribas.</p>
+  <p>"Após a falha em três exames, Jesinia Neilwart foi removida do caminho adepto e despojada de todas as suas responsabilidades e privilégios sagrados em 15 de janeiro. Sob protesto, transfiro seu comando para o Professor Grady a seu pedido excessivamente autoritário."[150]</p>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência Oficial de Augustine para a Rainha Maraya</h4>
+  <p>Correspondência oficial do General Augustine Melgren para a Rainha Maraya.</p>
+  <p>"Enquanto o avanço do inimigo por Krovla torna impossível estacionar uma tropa completa em Suniva, oferecemos a você quatro dragões e seus cavaleiros. No espírito de nossa aliança, você pode esperar um carregamento de nosso recurso mais valioso—armamento—para ser usado a seu critério."[151]</p>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência Rascunhada de Agatha para o Rei Tauri</h4>
+  <p>Correspondência não enviada, rascunhada da Coronel Agatha Mayfair, Arquivista Real.</p>
+  <p>"Vossa Majestade, infelizmente não consigo encontrar nenhuma lei que substitua os Pergaminhos da Unificação. O Compromisso Provincial sob a Rainha Alondra, a Ousada (207.1)—consolidando os exércitos das províncias sob o estandarte da rainha para o conflito Poromish—expirou com o Segundo Acordo de Aretia, e o controle de todas as forças deve retornar às províncias de onde se originam. Recomendo solicitar um novo Compromisso Provincial cobrindo nosso conflito atual. As províncias nunca concordarão após o aumento nas taxas de recrutamento. Meu conselho: não irrite o duque de Tyrrendor, que agora comanda a maior parte de nosso exército. Dane-se isso, odeio meu trabalho."[152]</p>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência Oficial de Xaden para o Rei Tauri</h4>
+  <p>Correspondência oficial de Sua Graça, Tenente Xaden Riorson, Décimo Sexto Duque de Tyrrendor, para Sua Majestade, o Rei Tauri, o Sábio.</p>
+  <p>"Vossa Majestade, Tyrrendor por meio deste recusa oficialmente seu pedido de um Compromisso Provincial de tropas para nosso conflito atual. Tendo renunciado ao meu cargo de professor no Colégio de Guerra Basgiath, estou agora no comando legítimo de todos os cidadãos Tyrrish em serviço militar."[153]</p>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência Oficial do Rei Tauri para Xaden</h4>
+  <p>Correspondência oficial de Sua Majestade, o Rei Tauri, o Sábio, para Sua Graça, Tenente Xaden Riorson, Décimo Sexto Duque de Tyrrendor.</p>
+  <p>"Se Tyrrendor não restaurar imediatamente o fluxo de Talladium, as consequências serão terríveis não apenas para a província, mas para o Continente. Este não é um pedido—é uma ordem de seu rei."[154]</p>
+</div>
+
+
+<h1>Cartas (Continuação)</h1>
+
+<div class="artigo">
+  <h4>Carta de Mira para Violet</h4>
+  <p>Encontrada na cama de Violet, de Mira Sorrengail, junto com a única cópia do Livro de Brennan (veja acima).</p>
+  <p>“Violet, fiquei tempo suficiente para ler os registros esta manhã, e você não está neles, graças aos deuses. Não posso ficar. Preciso voltar para minha ala, e mesmo que pudesse ficar, eles não me deixariam vê-la de qualquer maneira. Subornei um escriba para colocar isso escondido em seu beliche. Espero que você saiba o quão orgulhosa estou de ser sua irmã. Brennan escreveu isso para mim no verão antes de eu entrar no quadrante. Isso me salvou, e pode salvar você também. Adicionei meus próprios pedaços de sabedoria duramente conquistada aqui e ali, mas principalmente é dele, e sei que ele gostaria que você o tivesse. Ele gostaria que você vivesse. Com amor, Mira.” [3]</p>
+</div>
+
+<div class="artigo">
+  <h4>Cartas encontradas durante a Batalha de Esquadrão</h4>
+  <p>Encontradas na mesa da General Lilith Sorrengail no Colégio de Guerra Basgiath.</p>
+  <ul>
+    <li>"General Sorrengail, os ataques ao redor de Athebyne espalharam a ala demais. Ser enviado além da segurança das proteções traz riscos consideráveis, e embora eu relute em solicitar reforços, devo fazê-lo. Se não reforçarmos o posto, poderemos ser forçados a abandoná-lo. Estamos protegendo os cidadãos de Navarrian com vida, membros e ala, mas não posso transmitir adequadamente o quão grave é a situação aqui. Sei que você recebe os diários de nosso anexo de escriba. Mas eu seria negligente em meus deveres como oficial executivo da Ala Sul se não escrevesse para você pessoalmente. Por favor, encontre reforços para nós. Atenciosamente; Major Kallista Neema"[11]</li>
+    <li>"General Sorrengail, os protestos em relação às leis de recrutamento estão crescendo dentro da província de Tyrrendor. Sabendo que, devido ao tamanho de Tyrrendor, ela fornece a maioria de nossos recrutas para reabastecer nossas linhas de frente, não podemos nos dar ao luxo de perder o apoio de nosso povo novamente. Talvez um influxo de gastos defensivos em postos avançados aqui não apenas impulsionaria a economia das províncias e lembraria aos Tyrrish o quão necessários eles são para a defesa de nosso reino, mas também aliviaria a agitação. Por favor, considere esta solução como uma alternativa para suprimir a agitação com força. Atenciosamente; Tenente Coronel Alyssa Travonte."[11]</li>
+  </ul>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência de Asher para Violet</h4>
+  <p>Carta de Asher Sorrengail para Violet, escondida dentro de um livro.</p>
+  <p>"Minha Violet, quando você encontrar isso, provavelmente estará no Quadrante dos Escribas. Lembre-se de que o folclore é passado de uma geração para a outra para nos ensinar sobre nosso passado. Se o perdermos, perdemos os elos com nosso passado. Basta uma geração desesperada para mudar a história—até mesmo apagá-la. Sei que você fará a escolha certa quando chegar a hora. Você sempre foi o melhor de sua mãe e de mim. Com amor, Papai."[142]</p>
+</div>
+
+<div class="artigo">
+  <h4>Correspondência recuperada do Tenente Coronel Asher Sorrengail para Violet Sorrengail.</h4>
+  <p>"Minha luz mais brilhante, eu pretendia prepará-la, mas só tive tempo para metade das lições que você precisa, metade da história, metade da verdade, e agora o tempo está acabando. Eu falhei com Brennan no dia em que o vi caminhar pelo parapeito, falhei com Mira quando não pude impedi-la de seguir, mas temo que minha morte falhe com você. Sua mãe e eu não confiamos em ninguém, e nem você pode confiar."[155]</p>
+</div>
+
+<div class="artigo">
+  <h4>Carta de Theophanie para Violet</h4>
+  <p>De Theophanie, endereçada a "Controladora do Relâmpago". Foi deixada ao lado de um colar em Anca.</p>
+  <p>"Violet, apenas um lembrete de que, embora eu queira que você venha por sua própria vontade, sou capaz de levá-la quando eu quiser. Por que você não me pede as respostas que você busca desesperadamente? —T"[109]</p>
+</div>
+
+<div class="artigo">
+  <h4>Carta entregue a Violet pelo Coronel Aetos, já aberta.</h4>
+  <p>"Violet— Espero que você tenha se divertido em sua jornada, embora seu tumulto parecesse um pouco desgastado quando você sobrevoou Pavis. Eu me pergunto por que você se esforçou tanto quando eu tenho a única coisa que você busca acima de tudo. Aproveite o tempo que você tem com seus amigos até nosso próximo encontro. Não se preocupe, estou fazendo todos os preparativos. —T"[113]</p>
+</div>
+
+<div class="artigo">
+  <h4>Carta de Tecarus para Violet</h4>
+  <p>Carta do Visconde Tecarus, entregue a Violet por Halden depois que ele a abriu e leu.</p>
+  <p>"Cadete Sorrengail, conforme nosso acordo, aqui estão os tomos solicitados. Também selecionei alguns de minha biblioteca pessoal que espero que você ache educativos. Em relação à sua busca, o Rei Courtlyn de Deverelli concordou com uma única reunião—apenas sangue nobre—pelo razoável do Citrino Améliano. A Rainha Maraya concordou em presentear a joia a ele, mas não será responsável por sua recuperação de sua exibição em Anca. Por favor, me avise quando você tiver o citrino em mãos para que eu possa agendar nossa visita. A serviço, Visconde Tecarus"[155]</p>
+</div>
+
+<div class="artigo">
+    <h4>Cartas de Xaden para Violet</h4>
+    <p>Correspondência recuperada do Tenente Xaden Riorson para a Cadete Violet Sorrengail.</p>
+    <ul>
+      <li>"Garrick sempre foi meu melhor amigo. O pai dele era ajudante do meu pai, o que de certa forma o torna meu Dain, exceto confiável. Depois de Liam, Bodhi era e ainda é a coisa mais próxima que tenho de um irmão, perpetuamente seguindo um passo atrás."[21]</li>
+      <li>"Sgaeyl me viu matar outro cadete por intimidar Garrick durante a Debulha. Ela diz que me escolheu por minha crueldade, mas acho que eu apenas a lembro do meu avô."[156]</li>
+      <li>"Meu pai esperava que eu entrasse na infantaria como ele. Ele achava que os cavaleiros eram idiotas pomposos, e em sua defesa... nós realmente somos."[95]</li>
+      <li>"Nos anos após a morte do meu pai, esqueci como era ser amado. Então entrei no quadrante e me tornei o monstro que todos precisavam que eu fosse, e nunca me arrependi. Mas então você me deu essas palavras, e eu me lembrei... e quase perdi você também. Estou me esforçando para ser melhor para você, assim como prometi, mas preciso que você saiba que o monstro ainda está lá, gritando para usar cada parte cruel de mim para recuperar suas palavras."[157]</li>
+      <li>"Minhas últimas palavras com meu pai antes da Batalha de Aretia foram ditas com raiva, porque ele estava me mandando embora para minha própria segurança. Não tenho certeza se algum dia me perdoarei por isso, mas gosto de pensar que ele me perdoa."[158]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <p>Correspondência recuperada de Sua Graça, Tenente Xaden Riorson, Décimo Sexto Duque de Tyrrendor, para a Cadete Violet Sorrengail.</p>
+    <ul>
+      <li>"Você pode ficar com raiva quando perceber que eu não a acordei para me despedir. Mas é apenas porque não confio mais totalmente na minha capacidade de ir embora."[159]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <p>Carta escrita por Xaden, enviada por Garrick para Imogen, que a entrega a Violet.</p>
+    <ul>
+      <li>"V— Lutamos em Fervan ontem à noite, chamados por um ataque a civis. É com profundo pesar que atraso meu retorno em favor do descanso. Caminhei à beira do esgotamento, mas as vidas que salvamos valeram a pena o custo, e Garrick informou aos curandeiros que estarei nos aposentos, me recuperando, até novo aviso. Lewellen está atuando como procurador caso o Senarium ordene alguma reunião de emergência. É pior do que imaginávamos além das proteções, mas tenho uma solução em mente para evitar futuros esgotamentos. Sou só eu? Ou meu travesseiro cheira a você? Seu, —X"[159]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <p>Carta incluída no pacote, entregue por Jesinia, presenteada a Violet com uma camisola e roupão de seda Deverelli.</p>
+    <ul>
+      <li>"Para as noites em que não consigo dormir ao seu lado. —X"[160]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <p>Carta encontrada no bolso de Violet depois de ter sua memória das últimas 12 horas apagada.</p>
+    <ul>
+      <li>"Não me procure. É seu agora."[25]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Correspondência Não Enviada Recuperada de Liam para Sloane</h4>
+    <p>Correspondência não enviada recuperada do Cadete Liam Mairi para Sloane Mairi.</p>
+    <ul>
+      <li>"Você vai amar Violet. Ela é inteligente e teimosa. Lembra muito você, na verdade. Você só tem que lembrar quando conhecê-la: ela não é sua mãe."[161]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+      <h4>Correspondência Não Enviada Recuperada de Lilith</h4>
+      <p>Correspondência não enviada recuperada da General Lilith Sorrengail.</p>
+      <ul>
+          <li>"A maioria dos generais sonha em morrer a serviço de seu reino. Mas você me conhece melhor do que isso, meu amor. Quando eu cair, será por um único motivo: para proteger nossos filhos."[162]</li>
+          <li>"Às vezes me preocupo com Violet. Ela tem sua sagacidade afiada, mente rápida e coração firme combinado com minha tenacidade obstinada. Quando ela finalmente e verdadeiramente entregar esse coração, temo que ele domine os outros dons que você lhe deu e a lógica cederá sua voz ao amor. E se seus dois primeiros relacionamentos são qualquer indicação do que podemos esperar... Deuses a ajudem, meu amor, tenho medo que nossa filha tenha um gosto atroz para homens."[163]</li>
+          <li>"Ela não entenderá por que você a manteve no escuro. Você partiu cedo demais, deixou muitos de seus planos inacabados. Agora só podemos esperar que o vínculo entre nossas filhas seja forte o suficiente para suportar os caminhos que elas escolheram. Elas precisarão uma da outra para sobreviver."[164]</li>
+      </ul>
+  </div>
+  
+  <div class="artigo">
+      <h4>Correspondência Recuperada de Augustine para o Rei Tauri</h4>
+      <p>Correspondência recuperada do General Augustine Melgren para Sua Majestade o Rei Tauri.</p>
+      <ul>
+          <li>"Garantir Basgiath e as proteções teve um grande custo, incluindo a vida da General Sorrengail. A estratégia deve ser ajustada. É do melhor interesse do reino aliar-se com Poromiel, mesmo que temporariamente."[165]</li>
+      </ul>
+  </div>
+
+
+
+
+<div class="artigo">
+    <h4>Correspondência Recuperada de Lyra para Nirali</h4>
+    <p>Correspondência recuperada de Nirali Ilan, General Comandante, Fortaleza de Cliffsbane, para Lyra Mykel, General Comandante Adjunta, Acampamento de Guerra de Basgiath.</p>
+    <ul>
+      <li>"Na esperança e excitação que este novo desenvolvimento dos laços entre dragões, grifos e seus humanos traz, eu me pergunto quem parou para contemplar a natureza do equilíbrio da magia. Não arriscamos o aumento igual dos próprios poderes que buscamos exercer?"[166]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Correspondência Confiscada de Fen</h4>
+    <p>Correspondência confiscada de Fen Riorson para destinatário desconhecido.</p>
+    <ul>
+      <li>"A palavra mais inútil na linguagem da aristocracia sempre foi e sempre será: amor. O casamento é um mal necessário para garantir a linhagem. Nada mais. Guarde o amor para seus filhos."[167]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Correspondência Recuperada de Violet para Rhiannon</h4>
+    <p>Correspondência recuperada da Cadete Violet Sorrengail para a Cadete Rhiannon Matthias.</p>
+    <ul>
+      <li>"Gostaria que você e Sawyer estivessem conosco, mas sou grata por ter Ridoc, mesmo que seu sarcasmo esteja irritando os nervos de Mira."[168]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Correspondência Recuperada de Violet para Xaden</h4>
+    <p>Correspondência recuperada da Cadete Violet Sorrengail para Sua Graça, Tenente Xaden Riorson, Décimo Sexto Duque de Aretia.</p>
+    <ul>
+      <li>"Acho que comecei a me apaixonar por você na noite na árvore, quando observei você com os marcados, mas comecei a cair no dia em que você me deu a sela de Tairn. Você dará alguma desculpa egoísta, mas a verdade é que você é mais gentil do que quer que as pessoas saibam. Talvez mais gentil do que você sabe."[160]</li>
+      <li>"Quando isso acabar, devemos tirar o máximo de folga que eles nos derem e passar tudo em Aretia. Podemos descobrir como a vida deveria ser sem a ameaça diária de morte. Você pode governar a província que ama durante o dia e depois deslizar para a cama comigo à noite. Ou eu sempre posso me juntar a você na câmara da Assembleia. Você faz alguns de seus melhores trabalhos naquele trono."[169]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Correspondência Recuperada de Deservee para Aaric</h4>
+    <p>Correspondência recuperada da Alta Sacerdotisa Deservee para Sua Alteza Real, Cadete Aaric Graycastle, Príncipe Camaleão de Navarre.</p>
+    <ul>
+      <li>"Um presente de um servo de Dunne para outro. Devo avisá-lo—apenas aqueles tocados pelos deuses devem exercer sua ira. Rezarei para que Ela não precise usá-lo para evitar se reapresentar ao outro que busca seu favor. Seu caminho ainda não está definido."[170]</li>
+    </ul>
+  </div>
+  
+  <div class="artigo">
+    <h4>Mensagem de Nolon para Lilith</h4>
+    <p>Mensagem do Tenente Coronel Nolon Colbersy para a General Lilith Sorrengail.</p>
+    <ul>
+      <li>"Tentamos todos os métodos que conhecemos, como você solicitou. Não há cura. Há apenas controle."[171]</li>
+    </ul>
+  </div>
+        </section>
+
+        
+    </main>
+    
+    <script src="../lib/bootstrap.bundle-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="../lib/geral.js"></script>
+</body>
+</html>
