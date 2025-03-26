@@ -1,0 +1,8 @@
+.lista-topicos-literatura{
+    width: 600px !important;
+    li{
+        &:hover{
+            scale: 1.01 !important;
+        }
+    }
+}

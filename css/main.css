@@ -431,6 +431,7 @@ header .head .menu .menu-lista .menu-links a {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 .inicio h1 {
+  padding-bottom: 16px;
   font-family: "Quintessential", sans-serif;
 }
 .inicio p {
@@ -477,6 +478,7 @@ header .head .menu .menu-lista .menu-links a {
   list-style: decimal-leading-zero;
 }
 .inicio .card {
+  margin-top: 60px;
   color: white;
   background-color: rgba(0, 0, 0, 0.336);
 }
@@ -494,6 +496,13 @@ header .head .menu .menu-lista .menu-links a {
 .inicio .card .card-footer b {
   text-decoration: none;
   color: #E3B37F;
+}
+
+.lista-topicos-literatura {
+  width: 600px !important;
+}
+.lista-topicos-literatura li:hover {
+  scale: 1.01 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
