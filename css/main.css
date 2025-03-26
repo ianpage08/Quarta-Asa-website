@@ -334,26 +334,34 @@ header .head .menu .menu-lista .menu-links a {
   max-width: 1000px;
   margin: 10px auto;
   padding: 16px;
-  color: #F1D94F;
+  color: #E3B37F;
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
-.conteudo-mundo h1, .conteudo-mundo h4, .conteudo-mundo h3 {
+.conteudo-mundo h1, .conteudo-mundo h2, .conteudo-mundo h3, .conteudo-mundo h4, .conteudo-mundo h5, .conteudo-mundo h6 {
   color: white;
 }
-.conteudo-mundo h2 {
-  text-align: center;
-  padding: 10px;
-  color: white;
-}
-.conteudo-mundo h3 {
-  padding: 5px;
-  color: white;
+.conteudo-mundo h1, .conteudo-mundo h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.356);
+  padding-bottom: 5px;
 }
 .conteudo-mundo .mapa {
   text-align: center;
 }
 .conteudo-mundo .mapa img {
   width: 60%;
+}
+.conteudo-mundo section {
+  padding: 50px;
+}
+.conteudo-mundo section .artigo {
+  padding: 5px;
+}
+.conteudo-mundo section .artigo h4 {
+  font-size: 1.4em;
+  font-style: italic;
+}
+.conteudo-mundo section .artigo strong {
+  color: white;
 }
 
 .container-lista .lista-principal {
@@ -376,9 +384,6 @@ header .head .menu .menu-lista .menu-links a {
 .container-lista .lista-principal li .links-lista-p span img {
   margin-left: 5px;
   transition: 0.3s;
-}
-.container-lista .lista-principal li .links-lista-p:hover > span > img {
-  transform: rotate(90deg);
 }
 .container-lista .lista-principal li .sublista {
   background-color: rgb(109, 109, 109);
@@ -404,6 +409,10 @@ header .head .menu .menu-lista .menu-links a {
   color: white;
   width: 100%;
 }
+.container-lista .lista-principal li:hover > .links-lista-p > span img {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
 .container-lista .lista-principal li:hover > .sublista {
   display: block;
 }
@@ -417,26 +426,74 @@ header .head .menu .menu-lista .menu-links a {
   color: rgb(231, 204, 154);
 }
 
-.inicio-cavaleiros {
+.inicio {
   padding: 16px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
-.inicio-cavaleiros .lista-topicos {
+.inicio h1 {
+  font-family: "Quintessential", sans-serif;
+}
+.inicio p {
+  font-style: italic;
+  color: white;
+  max-width: 400px;
+  width: 90%;
+  font-weight: 400;
+}
+.inicio .lista-topicos {
   border: 1px solid white;
   width: 320px;
   padding: 16px;
 }
-.inicio-cavaleiros .lista-topicos ol {
+.inicio .lista-topicos .container-conteudo {
+  border-bottom: 1px solid white;
+}
+.inicio .lista-topicos ol {
+  margin-top: 5px;
   font-weight: bold;
   font-size: 0.9em;
+  color: rgba(240, 248, 255, 0.726);
 }
-.inicio-cavaleiros .lista-topicos ol ol {
-  list-style: lower-roman;
+.inicio .lista-topicos ol a {
+  text-decoration: none;
+  color: white;
 }
-.inicio-cavaleiros .lista-topicos ol ol li {
+.inicio .lista-topicos ol li {
   padding: 5px;
 }
-.inicio-cavaleiros .lista-topicos ol ol ol {
+.inicio .lista-topicos ol li:hover {
+  background-color: rgba(227, 178, 126, 0.2941176471);
+  transition: 0.5s;
+  border-radius: 3px;
+  scale: 1.05;
+}
+.inicio .lista-topicos ol ol {
+  list-style: lower-roman;
+}
+.inicio .lista-topicos ol ol li {
+  padding: 5px;
+}
+.inicio .lista-topicos ol ol ol {
   list-style: decimal-leading-zero;
+}
+.inicio .card {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.inicio .card .card-header {
+  background-color: #3f3d3d;
+  font-weight: bold;
+}
+.inicio .card .card-body:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+.inicio .card .card-footer {
+  background-color: #3f3d3d;
+}
+.inicio .card .card-footer b {
+  text-decoration: none;
+  color: #E3B37F;
 }
 
 /*# sourceMappingURL=main.css.map */

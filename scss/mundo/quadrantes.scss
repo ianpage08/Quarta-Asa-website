@@ -1,18 +1,52 @@
-.inicio-cavaleiros{
+.inicio{
     padding: 16px;
-    
+    font-family:"Raleway", Arial, Helvetica, sans-serif;
+
+    h1{
+        font-family: "Quintessential", sans-serif;
+    }
+    p{
+        
+        font-style: italic;
+        color: white;
+        max-width: 400px;
+        width: 90%;
+        font-weight: 400;
+    }
     
     .lista-topicos{
         border: 1px solid white;
         width: 320px;
         padding: 16px;
+        .container-conteudo{
+            border-bottom: 1px solid white;
+            
+        }
         ol{
+            margin-top: 5px;
             font-weight: bold;
             font-size: 0.9em;
+            color: rgba(240, 248, 255, 0.726);
+            
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+
+            li{
+                padding: 5px;
+                &:hover{
+                    background-color:#e3b27e4b ;transition: 0.5s;
+                    border-radius: 3px;
+                    scale: 1.05;
+                }
+            }
             ol{
                 list-style:lower-roman;
                 li{
                     padding: 5px;
+                    
                 }
                 ol{
                     list-style: decimal-leading-zero;
@@ -20,5 +54,26 @@
             }
         }
     
+    }
+    .card{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.336);
+        .card-header{
+            background-color: #3f3d3d;
+            font-weight: bold;
+        }
+        .card-body{
+            &:hover{
+                scale: 1.05;
+                transition: 0.5s;
+            }
+        }
+        .card-footer{
+            background-color:#3f3d3d ;
+            b{
+                text-decoration: none;
+                color: #E3B37F;
+            }
+        }
     }
 }
