@@ -1,6 +1,8 @@
 .conteudo-mundo{
-    border: 1px solid white;
+    
     max-width: 1000px;
+    border-radius: 10px;
+    background-color: #070600;
     margin: 10px auto;
     padding: 16px;
     color: #E3B37F;
@@ -20,19 +22,30 @@
         
         img{
             width: 60%;
+            
+            &:hover{
+                filter: brightness(120%);
+                scale:1.05;
+                transition: 0.5s;
+            }
         }
     }
     section{
         padding: 50px;
+        p,ul{
+            padding-top: 8px;
+            padding-left: 32px;
+        }
         .artigo{
             padding: 5px;
-
+        
             h4{
                 
                 font-size: 1.4em;
                 font-style: italic;
                 
             }
+            
             strong{
                 color: white;
             }
@@ -42,9 +55,9 @@
     }
 }
 .container-lista{
+    padding-top: 16px;
     .lista-principal{
     max-width: 1000px;
-    border: 1px solid white;
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +69,7 @@
         position: relative;
         .links-lista-p{
             
-            padding: 5px;
+            
             text-decoration: none;
             color: rgb(248, 207, 169);
             span{
@@ -74,7 +87,6 @@
             position: absolute;
             display: none;
             border-radius: 5px;
-            margin: auto;
             width: 120px;
             padding: 0px;
             z-index: 1000;

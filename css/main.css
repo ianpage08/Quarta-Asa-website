@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -330,8 +331,9 @@ header .head .menu .menu-lista .menu-links a {
 }
 
 .conteudo-mundo {
-  border: 1px solid white;
   max-width: 1000px;
+  border-radius: 10px;
+  background-color: #070600;
   margin: 10px auto;
   padding: 16px;
   color: #E3B37F;
@@ -350,8 +352,17 @@ header .head .menu .menu-lista .menu-links a {
 .conteudo-mundo .mapa img {
   width: 60%;
 }
+.conteudo-mundo .mapa img:hover {
+  filter: brightness(120%);
+  scale: 1.05;
+  transition: 0.5s;
+}
 .conteudo-mundo section {
   padding: 50px;
+}
+.conteudo-mundo section p, .conteudo-mundo section ul {
+  padding-top: 8px;
+  padding-left: 32px;
 }
 .conteudo-mundo section .artigo {
   padding: 5px;
@@ -364,9 +375,11 @@ header .head .menu .menu-lista .menu-links a {
   color: white;
 }
 
+.container-lista {
+  padding-top: 16px;
+}
 .container-lista .lista-principal {
   max-width: 1000px;
-  border: 1px solid white;
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
@@ -377,7 +390,6 @@ header .head .menu .menu-lista .menu-links a {
   position: relative;
 }
 .container-lista .lista-principal li .links-lista-p {
-  padding: 5px;
   text-decoration: none;
   color: rgb(248, 207, 169);
 }
@@ -390,7 +402,6 @@ header .head .menu .menu-lista .menu-links a {
   position: absolute;
   display: none;
   border-radius: 5px;
-  margin: auto;
   width: 120px;
   padding: 0px;
   z-index: 1000;
@@ -503,6 +514,24 @@ header .head .menu .menu-lista .menu-links a {
 }
 .lista-topicos-literatura li:hover {
   scale: 1.01 !important;
+}
+
+.personagens .box-personagens {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%; /* ou um valor específico */
+  text-align: center;
+}
+.personagens .box-personagens .itens-personagens {
+  overflow: hidden;
+  flex: 0 0 auto;
+  transform-style: preserve-3d;
+  user-select: none;
+  transition: 0.5s;
+}
+.personagens .box-personagens .itens-personagens img {
+  height: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */

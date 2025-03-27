@@ -1,0 +1,27 @@
+
+.personagens{
+    
+    .box-personagens{
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 100%; /* ou um valor específico */
+        text-align: center;
+        
+    
+    
+    .itens-personagens{
+        overflow: hidden;
+        flex: 0 0 auto;
+        transform-style: preserve-3d;
+        user-select: none;
+        transition: 0.5s;
+        img{
+            height: 80%;
+        }
+        
+        
+    }
+}
+}
+
