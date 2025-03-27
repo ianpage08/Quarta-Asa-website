@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -516,22 +515,76 @@ header .head .menu .menu-lista .menu-links a {
   scale: 1.01 !important;
 }
 
-.personagens .box-personagens {
+.slider-personagens {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.slider-personagens .slider-content {
+  width: 100%;
+  height: auto;
   position: relative;
-  display: flex;
-  overflow: hidden;
-  width: 100%; /* ou um valor específico */
+}
+.slider-personagens .slider-content input {
+  display: none;
+}
+.slider-personagens .slider-content .itens-personagens {
+  width: 100%;
+  height: auto;
+  position: absolute;
   text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
-.personagens .box-personagens .itens-personagens {
-  overflow: hidden;
-  flex: 0 0 auto;
-  transform-style: preserve-3d;
-  user-select: none;
-  transition: 0.5s;
+.slider-personagens .slider-content .itens-personagens img {
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.personagens .box-personagens .itens-personagens img {
-  height: 80%;
+.slider-personagens .slider-content .nav-manual, .slider-personagens .slider-content .nav-auto {
+  position: absolute;
+  width: 100%;
+  margin-top: 34.5%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+.slider-personagens .slider-content .nav-manual .a1, .slider-personagens .slider-content .nav-auto .a1 {
+  width: 10px;
+}
+.slider-personagens .slider-content .nav-manual .manual-btn, .slider-personagens .slider-content .nav-manual .a1, .slider-personagens .slider-content .nav-auto .manual-btn, .slider-personagens .slider-content .nav-auto .a1 {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.slider-personagens .slider-content .nav-manual .manual-btn:not(:last-child), .slider-personagens .slider-content .nav-manual .a1:not(:last-child), .slider-personagens .slider-content .nav-auto .manual-btn:not(:last-child), .slider-personagens .slider-content .nav-auto .a1:not(:last-child) {
+  margin-right: 5px;
+}
+.slider-personagens .slider-content .nav-manual .manual-btn:hover, .slider-personagens .slider-content .nav-manual .a1:hover, .slider-personagens .slider-content .nav-auto .manual-btn:hover, .slider-personagens .slider-content .nav-auto .a1:hover {
+  border: 1px solid rgb(245, 147, 1);
+  background-color: wheat;
+  scale: 1.2;
+}
+.slider-personagens .slider-content .itens-personagens.ativo {
+  opacity: 1;
+}
+
+#radio-1:checked ~ .nav-auto .auto-btn1,
+#radio-2:checked ~ .nav-auto .auto-btn2,
+#radio-3:checked ~ .nav-auto .auto-btn3,
+#radio-4:checked ~ .nav-auto .auto-btn4,
+#radio-5:checked ~ .nav-auto .auto-btn5,
+#radio-6:checked ~ .nav-auto .auto-btn6,
+#radio-7:checked ~ .nav-auto .auto-btn7 {
+  background-color: wheat;
+}
+
+#radio-1:checked ~ .ativ {
+  margin-left: 0%;
 }
 
 /*# sourceMappingURL=main.css.map */
