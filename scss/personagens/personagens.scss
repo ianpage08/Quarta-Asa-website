@@ -91,22 +91,22 @@
         font-family: "Quintessential", sans-serif;
     }
     .dragoes{
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.158);
         padding: 32px;
         display: flex;
     justify-content: space-around;
     align-items: center;
     img{
-        
-        border-bottom: 1px solid white;
+        filter: brightness(1.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.521);
         width: 350px;
         height: 300px;
     }
     .lado-direito{
-        border-right: 1px solid white;
+        border-right: 1px solid rgba(255, 255, 255, 0.527);
     }
     .lado-esquedo{
-        border-left: 1px solid white;
+        border-left: 1px solid rgba(255, 255, 255, 0.521);
     }
     .info-dragoes{
         width: 60%;
@@ -133,12 +133,12 @@ table, th, td {
   }
 th{
     padding: 8px;
-    border: 1px solid white;
+    border: 1px solid rgba(172, 172, 172, 0.418);
     text-align: center;
 }
 td{
     padding: 8px;
-    border: 1px solid white;
+    border: 1px solid rgba(172, 172, 172, 0.418);
     text-align: center;
 }
 

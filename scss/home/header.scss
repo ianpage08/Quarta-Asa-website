@@ -1,6 +1,21 @@
 header{
     background-color: rgba(0, 0, 0, 0.199);
     .head{
+
+        .menu-hamburguer{
+            cursor: pointer;
+            width: 30px;
+            height: 20px;
+            display: none;
+            .linha-menu{
+                width: 100%;
+                height: 2px;
+                background-color: rgb(255, 255, 255);
+                margin: 5px;
+                transition: 0.5s;
+                
+            }
+        }
         .menu{
             .menu-lista{
                 border-bottom: 2px solid rgba(255, 255, 255, 0.438);
@@ -30,4 +45,84 @@ header{
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        background-color:rgba(0, 0, 0, 0.877);
+        .head{
+            
+    
+            .menu-hamburguer{
+                display: block;
+                margin-right: 16px;
+                
+                .linha-menu{
+                    &:nth-child(1){
+                        transform:  translate(5px, 0px);
+                    }
+                    &:nth-child(2){
+                        opacity: 1;
+                        margin: 5px;
+                    }
+                    &:nth-child(3){
+                        
+                        transform:  translate(8px, 0px);
+                    }
+                }
+            }
+            .menu {
+                
+                display: none;
+                width: 100%;
+                .menu-lista{
+                    background-color:rgba(0, 0, 0, 0.877);
+                    border: none;
+                    text-align: center;
+                    
+                    
+                    .menu-links{
+                        padding: 16px;
+                        display: block;
+                        &:hover{
+                            transition: 0.5s;
+                            color:black;
+                            background-color: rgb(182, 151, 125);
+                            a{
+                                transition: 0.3s;
+                                font-weight: bold;
+                                color: black;
+                            }
+                        }
+                        
+
+                    }
+                }
+            }
+            .menu.active{
+                
+                display: block;
+                position: absolute;
+                top: 100px;
+                left: 0px;
+                z-index: 1;
+            }
+            
+        }
+        .menu-hamburguer.active{
+            .linha-menu{
+                &:nth-child(1){
+                    transform: rotate(45deg) translate(5px, 2px);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:nth-child(3){
+                    transform: rotate(-45deg) translate(8px, -5px);
+                }
+            }
+            
+        }
+    }
+    
 }
