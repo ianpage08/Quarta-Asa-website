@@ -516,13 +516,15 @@ header .head .menu .menu-lista .menu-links a {
 }
 
 .slider-personagens {
-  margin: 0 auto;
+  margin: 16px auto;
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slider-personagens .slider-content {
-  width: 100%;
-  height: auto;
+  height: 600px;
+  width: 90%;
   position: relative;
 }
 .slider-personagens .slider-content input {
@@ -530,21 +532,19 @@ header .head .menu .menu-lista .menu-links a {
 }
 .slider-personagens .slider-content .itens-personagens {
   width: 100%;
-  height: auto;
+  height: 600px;
   position: absolute;
   text-align: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
 .slider-personagens .slider-content .itens-personagens img {
-  width: 100%;
-  height: 85vh;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: 90%;
+  height: 80%;
 }
 .slider-personagens .slider-content .nav-manual, .slider-personagens .slider-content .nav-auto {
   position: absolute;
+  z-index: 111;
   width: 100%;
   margin-top: 34.5%;
   object-fit: cover;
@@ -585,6 +585,80 @@ header .head .menu .menu-lista .menu-links a {
 
 #radio-1:checked ~ .ativ {
   margin-left: 0%;
+}
+
+.aba-dragoes {
+  color: aliceblue;
+}
+.aba-dragoes h3 {
+  padding: 16px;
+  font-size: 3em;
+  font-style: italic;
+  font-family: "Quintessential", sans-serif;
+}
+.aba-dragoes .dragoes {
+  border-bottom: 1px solid white;
+  padding: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aba-dragoes .dragoes img {
+  border-bottom: 1px solid white;
+  width: 350px;
+  height: 300px;
+}
+.aba-dragoes .dragoes .lado-direito {
+  border-right: 1px solid white;
+}
+.aba-dragoes .dragoes .lado-esquedo {
+  border-left: 1px solid white;
+}
+.aba-dragoes .dragoes .info-dragoes {
+  width: 60%;
+}
+.aba-dragoes .dragoes .info-dragoes table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.aba-dragoes .dragoes .info-dragoes table th {
+  padding: 6px;
+}
+.aba-dragoes .dragoes .info-dragoes table td {
+  padding: 8px;
+}
+
+table, th, td {
+  margin: auto;
+  color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 8px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.mais-sobre-dragoes {
+  width: 1000px;
+  padding-top: 16px;
+  color: white;
+}
+.mais-sobre-dragoes h2 {
+  font-family: "Quintessential", sans-serif;
+}
+.mais-sobre-dragoes p {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 32px;
+  color: rgb(185, 164, 124);
 }
 
 /*# sourceMappingURL=main.css.map */
