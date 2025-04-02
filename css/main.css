@@ -946,6 +946,9 @@ td {
   .mais-sobre-dragoes p {
     padding: 32px;
   }
+  .mais-sobre-dragoes .sobre-dragoes {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
