@@ -146,3 +146,71 @@
 
 
 
+@media screen and (max-width: 768px) {
+    .conteudo-mundo{
+        max-width: 1000px;
+        width: 95%;
+        .mapa{
+            img{
+                width: 80%;
+            }
+        }
+        section{
+            
+            p,ul{
+                padding-top: 16px;
+                padding-left: 8px;
+            }
+            
+            
+        }
+    }
+    
+        
+    .container-lista{
+        padding-top: 16px;
+        .lista-principal{
+        padding-left: 0px;
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 5px ;
+        
+        
+        li{
+            cursor: pointer; 
+            border-radius: 16px;
+            width: 90%;
+            text-align: center;
+            background-color: #e3b37fc7;
+            margin-top: 5px;
+            padding: 16px;
+            font-size: 1.5em;
+            &:hover{
+                scale: 0.95;
+                transition: 0.3s;
+            }
+            .links-lista-p{
+                font-weight: bold;
+                color: #070600;
+            }
+            &:hover > .sublista {
+                display: none;
+            }
+        }
+        
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+}

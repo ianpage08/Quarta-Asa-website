@@ -414,11 +414,13 @@ header .head .menu .menu-lista .menu-links a {
   font-family: Bonheur Royale, cursive, Arial, Helvetica, sans-serif;
   font-size: 5em;
   text-align: center;
+  text-shadow: 0px 4px 4px black;
 }
 .sinopse-conteudo p {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   text-align: justify;
+  text-shadow: 0px 4px 4px black;
 }
 .sinopse-conteudo a {
   font-family: Marcellus SC, Arial, Helvetica, sans-serif;
@@ -561,6 +563,53 @@ header .head .menu .menu-lista .menu-links a {
   color: rgb(231, 204, 154);
 }
 
+@media screen and (max-width: 768px) {
+  .conteudo-mundo {
+    max-width: 1000px;
+    width: 95%;
+  }
+  .conteudo-mundo .mapa img {
+    width: 80%;
+  }
+  .conteudo-mundo section p, .conteudo-mundo section ul {
+    padding-top: 16px;
+    padding-left: 8px;
+  }
+  .container-lista {
+    padding-top: 16px;
+  }
+  .container-lista .lista-principal {
+    padding-left: 0px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .container-lista .lista-principal li {
+    cursor: pointer;
+    border-radius: 16px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(227, 179, 127, 0.7803921569);
+    margin-top: 5px;
+    padding: 16px;
+    font-size: 1.5em;
+  }
+  .container-lista .lista-principal li:hover {
+    scale: 0.95;
+    transition: 0.3s;
+  }
+  .container-lista .lista-principal li .links-lista-p {
+    font-weight: bold;
+    color: #070600;
+  }
+  .container-lista .lista-principal li:hover > .sublista {
+    display: none;
+  }
+}
 .inicio {
   padding: 16px;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -633,6 +682,44 @@ header .head .menu .menu-lista .menu-links a {
   color: #E3B37F;
 }
 
+@media screen and (max-width: 768px) {
+  .lista-topicos {
+    border: 1px solid white;
+    max-width: 320px;
+    padding: 16px;
+  }
+  .lista-topicos .container-conteudo {
+    border-bottom: 1px solid white;
+  }
+  .lista-topicos ol {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: rgba(240, 248, 255, 0.726);
+  }
+  .lista-topicos ol a {
+    text-decoration: none;
+    color: white;
+  }
+  .lista-topicos ol li {
+    padding: 5px;
+  }
+  .lista-topicos ol li:hover {
+    background-color: rgba(227, 178, 126, 0.2941176471);
+    transition: 0.5s;
+    border-radius: 3px;
+    scale: 1.05;
+  }
+  .lista-topicos ol ol {
+    list-style: lower-roman;
+  }
+  .lista-topicos ol ol li {
+    padding: 5px;
+  }
+  .lista-topicos ol ol ol {
+    list-style: decimal-leading-zero;
+  }
+}
 .lista-topicos-literatura {
   width: 600px !important;
 }

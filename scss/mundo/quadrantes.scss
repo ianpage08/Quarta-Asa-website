@@ -79,3 +79,48 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .lista-topicos{
+        border: 1px solid white;
+        
+        max-width: 320px;
+        padding: 16px;
+        .container-conteudo{
+            border-bottom: 1px solid white;
+            
+        }
+        ol{
+            margin-top: 5px;
+            font-weight: bold;
+            font-size: 0.9em;
+            color: rgba(240, 248, 255, 0.726);
+            
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+
+            li{
+                padding: 5px;
+                &:hover{
+                    background-color:#e3b27e4b ;transition: 0.5s;
+                    border-radius: 3px;
+                    scale: 1.05;
+                }
+            }
+            ol{
+                list-style:lower-roman;
+                li{
+                    padding: 5px;
+                    
+                }
+                ol{
+                    list-style: decimal-leading-zero;
+                }
+            }
+        }
+    
+    }
+    
+}
