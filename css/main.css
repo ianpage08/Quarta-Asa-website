@@ -105,7 +105,7 @@ header .head .menu .menu-lista .menu-links a {
     position: absolute;
     top: 100px;
     left: 0px;
-    z-index: 1;
+    z-index: 99999;
   }
   header .menu-hamburguer.active .linha-menu:nth-child(1) {
     transform: rotate(45deg) translate(5px, 2px);
@@ -778,7 +778,7 @@ header .head .menu .menu-lista .menu-links a {
 }
 .slider-personagens .slider-content .nav-manual .manual-btn:hover, .slider-personagens .slider-content .nav-manual .a1:hover, .slider-personagens .slider-content .nav-auto .manual-btn:hover, .slider-personagens .slider-content .nav-auto .a1:hover {
   border: 1px solid rgb(245, 147, 1);
-  background-color: wheat;
+  background-color: rgb(179, 153, 108);
   scale: 1.2;
 }
 .slider-personagens .slider-content .itens-personagens.ativo {
@@ -792,7 +792,7 @@ header .head .menu .menu-lista .menu-links a {
 #radio-5:checked ~ .nav-auto .auto-btn5,
 #radio-6:checked ~ .nav-auto .auto-btn6,
 #radio-7:checked ~ .nav-auto .auto-btn7 {
-  background-color: wheat;
+  background-color: rgb(77, 77, 77);
 }
 
 #radio-1:checked ~ .ativ {
@@ -872,6 +872,80 @@ td {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   padding: 32px;
   color: rgb(185, 164, 124);
+}
+
+@media screen and (max-width: 768px) {
+  .slider-personagens .slider-content .nav-manual, .slider-personagens .slider-content .nav-auto {
+    top: 250px;
+  }
+  .slider-personagens .slider-content .nav-manual .manual-btn, .slider-personagens .slider-content .nav-manual .a1, .slider-personagens .slider-content .nav-auto .manual-btn, .slider-personagens .slider-content .nav-auto .a1 {
+    padding: 15px;
+  }
+  .slider-personagens .slider-content .nav-manual .manual-btn:not(:last-child), .slider-personagens .slider-content .nav-manual .a1:not(:last-child), .slider-personagens .slider-content .nav-auto .manual-btn:not(:last-child), .slider-personagens .slider-content .nav-auto .a1:not(:last-child) {
+    margin-right: 9px;
+  }
+  .aba-dragoes .dragoes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aba-dragoes .dragoes img {
+    width: 300px;
+    height: 250px;
+  }
+  .aba-dragoes .dragoes .lado-direito {
+    border-right: none;
+  }
+  .aba-dragoes .dragoes .lado-esquedo {
+    border-left: none;
+  }
+  .aba-dragoes .dragoes .info-dragoes table {
+    width: 300px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: -50px;
+    height: 600px;
+  }
+  .aba-dragoes .dragoes .info-dragoes table tbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .aba-dragoes .dragoes .info-dragoes table tbody tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+  .aba-dragoes .dragoes .info-dragoes table tbody tr th {
+    padding: 0px;
+    height: 600px;
+  }
+  .aba-dragoes .dragoes .info-dragoes table tbody tr td {
+    height: 600px;
+    padding: 8px;
+  }
+  th {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+  }
+  td {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid rgba(172, 172, 172, 0.418);
+    text-align: center;
+  }
+  .mais-sobre-dragoes {
+    max-width: 1000px;
+    width: 90%;
+    padding-top: 16px;
+    color: white;
+  }
+  .mais-sobre-dragoes p {
+    padding: 32px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
